@@ -1,5 +1,7 @@
 # CS Open Rankings
 
+**Live site: <https://drafty-research.github.io/csopenrankings/>**
+
 CS Open Rankings ranks computer science departments in the United States and Canada by combining four ranking sources, filtered by 30+ subfields of computer science:
 
 - **U.S. News / Maclean's**: reputation, from surveys of academics.
