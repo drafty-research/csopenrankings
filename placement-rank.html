@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>placement rank</title>
+        <link rel="stylesheet" href="./src/styling.css">
+        <script type="module" src="./src/ui/placement.js"></script>
+    </head>
+    <body class="body-slim">
+        <main>
+            <h1 class="header">placement rank</h1>
+            <div class="source-information">
+                <div>
+                    <p>Computer science rankings each measure different things and have their own inherent biases. Placement Rank is based on academic placement of students from an institution into computer science faculty positions in the United States. The data comes from a publicly-editable <a href="https://drafty.cs.brown.edu/csprofessors?src=csor_placementrank" target="_blank" rel="noopener">dataset of professor profiles</a>, and uses a similar method to this <a href="http://benschmidt.org/post/2020-07-30/2020-07-30-cs-rankings/" target="_blank" rel="noopener">PageRank analysis by digital historian Ben Schmidt</a>. The university where a professor received their bachelors or doctorate is treated as the source node and their currently affiliated university is the destination node in the PageRank algorithm.</p>
+                    <p>Similar to a link on websites, a university endorses the degree-granting institutions of the person they're hiring, as those institutions either trained or attracted a good student. So it's a relatively hard to game metric because the best strategy for a degree program is to convince other universities to hire your alumni. This is one of the ranking sources that contributes to the <a href="./">computer science open rankings</a> meta ranker.</p>
+                    <p class="authors">By Alice Marbach, Jeff Huang, Long Do, Shaun Wallace, and others who contributed the original ranking sources.</p>
+                </div>
+            </div>
+            <br>
+            <div class="datasrc-table-wrapper">
+                <div class="tablediv" id="tablediv">
+                    <p class="notice">Loading placement rank…</p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

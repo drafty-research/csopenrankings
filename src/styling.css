@@ -1,0 +1,864 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body, p, h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding-top: 0.5rem;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+h1.header {
+    font-size: 2rem;
+    margin: 1rem 10%;
+    margin-bottom: 0.2rem;
+    font-weight: 400;
+}
+
+h2.header {
+    margin: 1rem 10%;
+    font-weight: 400;
+}
+
+span.headermsg {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+p {
+    padding-bottom: 0.5rem;
+    line-height: 1.6rem;
+}
+
+td a {
+    text-decoration-line: none;
+}
+
+.areabutton {
+    display: flex;
+    flex-direction: row;
+}
+
+.authors {
+    font-size: 0.8rem;
+    font-style: italic;
+    line-height: 1rem;
+    padding-bottom: 0.8rem;
+}
+
+.last-updated {
+    font-size: 0.8rem;
+    font-style: italic;
+    margin: 0 10% 1rem 10%;
+}
+
+.body-slim {
+    background-color: #294e56;
+    margin: 0;
+    padding: 0;
+}
+
+.metarank-description {
+    font-style: italic;
+}
+
+.rank-description {
+    margin: 0 1rem 1rem 0.25rem;
+}
+
+.buttondiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: auto;
+    flex-wrap: wrap;
+} 
+
+.area-subfield-buttons-wrapper {
+    margin-top: 1rem;
+    text-transform: lowercase;
+}
+
+.subfieldbuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+#rankings-description {
+    padding-right: 0.5em;
+}
+
+hr {
+    margin: 10px 3px;
+    max-width: 15rem;
+}
+
+main { /* for placement-rank.html */
+    margin: 0 auto;	
+    padding: 30px 40px 0 40px;	
+    max-width: 960px;	
+    min-height: 100vh;	
+    background-color: white;	
+}	
+
+
+label {
+    color: rgb(85, 84, 84);
+}
+
+.datasrc-title {
+    font-size: 1rem;
+    color: #fff;
+    padding: .25em;
+}
+
+.area-label {
+    font-size: 1.25em;
+    color: #000000;
+}
+
+.datasrc-buttonlabel {
+    width: 80%;
+    float: left;
+    margin-top: 0.25rem;
+}
+.collapsible {
+    margin-left: 0%;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.source-information {
+    display: flex;
+    margin: 0 10%;
+    align-items: center;
+}
+
+.areabutton-buttondiv-wrapper {
+    margin: 1% 1.5%;
+    flex-basis: 0;
+    flex: 1 1 0;
+}
+
+#aidiv {
+    margin-bottom: 1.5rem;
+}
+
+#table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 15px;
+}
+  
+#table td {
+    padding: 5px;
+}
+
+#table td[value="not-in-ranking"]{
+    /* background-color:#ccd4d4; */
+    background-color:#e1e1e1;
+}
+#table td[value="not-included-ranking"]{
+    /* background-color:#b9bdbd; */
+    background-color:#d0d0d0;
+}
+
+#table .main_row_header {
+    font-weight: normal;
+    padding: 0.1rem 0.5rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: white;
+    top: -3px;
+    z-index: 10;
+    position: sticky;
+    height: 40px;
+    font-size: 1.0em;
+}
+
+#table .sub_row_header {
+    font-weight: normal;
+    padding: 0.1rem 0.5rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: white;
+    top: -3px;
+    z-index: 10;
+    height: 35px;
+    font-size: 1.0em;
+    position:sticky;
+    top:41px;
+}
+
+#table .close_footer {
+    background-color:#b9b8b8;
+}
+
+#table .sub_sub_row_header {
+    font-weight: normal;
+    padding: 0.1rem 0.5rem;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: white;
+    top: -3px;
+    z-index: 10;
+    height: 35px;
+    font-size: 1.0em;
+    position:sticky;
+    top:82px;
+}
+
+th.placement_rank_page {
+    color: #fff;
+    padding: 0.25em 0.5em;
+}
+
+th.prof_name {
+    background-color: #929292;
+}
+
+th.prof_subfield {
+    background-color: #c0c0c0;
+}
+
+th.prof_links {
+    background-color: #949494;
+}
+
+th.prof_professor {
+    background-color: #a3a3a3;
+}
+
+th.prof_alumni {
+    background-color: #a3a3a3;
+}
+
+th.prof_university {
+    background-color: #999999;
+}
+
+th.rank_total {
+    background-color: #666666;
+}
+
+th.rank_university {
+    background-color: #666666;
+}
+
+.rank_usnews {
+    background-color: #cc0001;
+}
+
+.rank_csrankings {
+    background-color: #e69139;
+}
+
+.rank_pagerank {
+    background-color: #45818e;
+}
+
+.rank_bpa {
+    background-color: #674ea7;
+}
+
+#table tr:nth-child(even){background-color: #f3f3f3;}
+
+#table .sub_prof_row:hover {background-color: #ddd;}
+
+.column1 {
+    max-width: 25%;
+}
+.column2 {
+    max-width: 50%;
+}
+.column3 {
+    max-width: 25%;
+}
+.column1, .column3, .column4, .column5, .column6, .column7 {
+    /* only center the numbers, not the university */
+    text-align: center;
+}
+
+tbody tr {
+    cursor: pointer;
+}
+
+tr.canada {
+    font-style: italic;
+}
+
+#tablefooter {
+    border-collapse: collapse;
+    text-align: center;
+    display: none;
+    max-width: 100%;
+    position: sticky;
+    bottom: 0;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    background-color: #f4f4f4;
+    color: #666 ;
+    z-index: 10;
+}
+
+
+/* For professor and alumni cols */
+div.prof_alumni_parent {
+    display: flex;
+}
+
+div.prof_alumni_column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+
+.close {
+    position: relative;
+    top: -7px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.close:hover {
+    opacity: 0.8;
+}
+.close:before, .close:after {
+    position: absolute;
+    content: ' ';
+    height: 16px;
+    width: 2px;
+    background-color: #333;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+
+
+.grid-item1 { grid-area: bestpaper; }
+.grid-item2 { grid-area: arearank; }
+.grid-item3 { 
+
+    grid-area: mostpub;
+    white-space: nowrap;
+
+ }
+/*.grid-item4 { grid-area: conf; }
+.grid-item5 { grid-area: drafty; }
+.grid-item6 { grid-area: close; } */
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'arearank arearank bestpaper'
+        'mostpub mostpub bestpaper' ;
+    grid-gap: 10px;
+    background-color: #e1e1e1;
+    padding: 0.5em;
+    text-overflow: ellipsis;
+}
+.agg {
+    max-width: 60%;
+}
+
+.close_footer {
+    font-weight: bold;
+}
+
+.grid-container > div {
+    display: grid;
+    background-color: #f4f4f4;
+    color: #666;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+.grid-item6 {
+    justify-items: center;
+    align-items: center;
+    background: none !important;
+}
+
+.grid-container p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 1.5rem;
+    padding: 0;
+}
+
+.metric_flex {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    line-height: 1.6rem
+}
+.metric {
+    flex: 0 49%;
+}
+
+
+.footer_drafty_link {
+    color: #45818e;
+    text-decoration: none;
+}
+
+
+.footer_pubs_link {
+    color: #e69139;
+    text-decoration: none;
+}
+
+.footer_bpa_link {
+    color: #674ea7;
+    text-decoration: none;  
+}
+
+
+.link_logo {
+    font-size: 1.75rem;
+    color:inherit
+}
+
+.tooltip_size {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #999;
+}
+
+.tooltip_size .tooltiptext_size {
+    display: none;
+    width: 320px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 4px;
+
+    /* Position the tooltip */
+    position: absolute;
+    top: 50px; /* puts this a bit further below to account for multi-row headers */
+    left: -160px;
+    z-index: 20; /* this doesn't seem to do anything, maybe because of parent-child nesting z-order limitations */
+}
+  
+.tooltip_size:hover .tooltiptext_size {
+    display: block;
+}
+
+.tooltip_link {
+    text-decoration: none;
+    color: white;
+}
+
+.datasrcs {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    justify-content: flex-start;
+    width: 14rem;
+}
+
+@media all and (max-width: 800px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+    
+    h1.header {
+    	margin: 0.5rem;
+    	margin-bottom: 0.1rem;
+    	font-size: 1.5rem;
+    }
+
+	.last-updated {
+	    margin: 0 0.5rem 0.5rem 0.5rem;
+	}
+
+    .source-information {
+        flex-direction: column;
+        margin: 0.5rem;
+    }
+
+    .area-subfield-buttons-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 2%;
+        display: flex;
+    }
+
+    .buttondiv {
+        margin-bottom: 1.5rem;
+    }
+
+    .area-subfield-buttons {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        height: 20%;
+        background-color: #f4f4f4;
+    }
+
+    .alumni_subtable {
+        float: left;
+        width: 40%;
+    }
+
+    .professor_subtable {
+        float: left;
+        width:40%;
+    }
+
+    .subtable_holder {
+        max-width: 60%;
+    }
+
+    .datasrc-table-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .datasrcs {
+        padding: 20px;
+    }
+
+    .tablediv {
+        display: block;
+        flex: 1;
+        margin: 0;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        min-width: 30%;
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 800px) {
+    .area-subfield-buttons-wrapper {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2%;
+    }
+    
+    .area-subfield-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 20%;
+        background-color: #f4f4f4;
+    }
+
+    .datasrc-table-wrapper {
+        margin: 0% 10%;
+    }
+
+    .datasrcs {
+        padding: 0.5rem;
+    }
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1em;
+        max-width: 33%;
+        min-width: 33%;
+        max-height: 600px;
+    }
+
+    #eval {
+        max-height: 50px;
+    }
+}
+
+.toggle_all {
+    cursor: pointer;
+    width: 142px;
+    padding: 0.2em;
+    margin-bottom: .75em;
+}
+
+.countries {
+    padding: 0.2em;
+}
+
+/* ---- additions for the client-side rewrite ---- */
+
+body {
+    background-color: #fff;
+}
+
+.notice {
+    margin: 0.5rem auto;
+    padding: 0.5rem 0.75rem;
+    max-width: 60rem;
+    background-color: #f4f4f4;
+    border-left: 4px solid #45818e;
+    color: #333;
+}
+
+.notice-error {
+    border-left-color: #cc0001;
+}
+
+/* site-wide announcement under the title, aligned with the page text */
+.notice.site-notice {
+    margin: 0 10% 1rem 10%;
+    max-width: none;
+    border-left-color: #e69139;
+}
+
+@media all and (max-width: 800px) {
+    .notice.site-notice {
+        margin: 0 16px 0.75rem 16px;
+    }
+}
+
+.area-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.75rem 1.5%;
+    background-color: #f4f4f4;
+}
+
+.area-controls .toggle_all {
+    margin-bottom: 0;
+}
+
+.datasrc-title {
+    display: inline-block;
+}
+
+#table tbody tr[data-school]:focus-visible {
+    outline: 2px solid #45818e;
+    outline-offset: -2px;
+}
+
+#table .expand {
+    font-weight: 550;
+    float: right;
+    padding-left: 1em;
+}
+
+#table .detail-row,
+#table .detail-row:nth-child(even) {
+    background-color: #f4f4f4;
+    cursor: default;
+}
+
+#table .detail-cell {
+    padding: 0;
+}
+
+/* Expanded details must not widen the table: zero intrinsic width, then fill the row.
+   Long text wraps inside the existing column widths instead of growing them. */
+#table .detail-inner {
+    width: 0;
+    min-width: 100%;
+    overflow-wrap: anywhere;
+}
+
+#table .detail-cell .close_footer {
+    float: right;
+    margin: 0.25rem 0.5rem;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    padding: 0.25rem 0.5rem;
+}
+
+.prof_alumni_parent {
+    display: flex;
+    padding: 0;
+    border-width: 0 0.5em 0.5em 0.5em;
+    border-style: solid;
+    border-color: #e1e1e1;
+    background-color: #f4f4f4;
+    clear: both;
+}
+
+.professor_subtable,
+.alumni_subtable {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.alumni_subtable {
+    padding-left: 2px;
+}
+
+.prof-dropdown-table {
+    border: none;
+    border-spacing: 0;
+}
+
+.best-paper-titles {
+    text-align: left;
+}
+
+.bpa-subfields {
+    text-align: left;
+}
+
+.grid-item3 {
+    white-space: normal;
+}
+
+/* university and maintenance pages */
+.page-wrap {
+    margin: 0 10%;
+}
+
+.page-wrap h2.header {
+    margin: 1rem 0;
+}
+
+.uni-index {
+    columns: 3 16rem;
+    padding-left: 1rem;
+}
+
+.maint-section {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+.maint-section h2 {
+    font-weight: 600;
+}
+
+.maint-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.maint-table th,
+.maint-table td {
+    border: 1px solid #ddd;
+    padding: 4px 6px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.maint-table th {
+    background-color: #666;
+    color: #fff;
+    font-weight: normal;
+}
+
+.maint-table input[type="text"] {
+    width: 100%;
+    min-width: 14rem;
+}
+
+.maint-table .ranked {
+    font-weight: 600;
+    color: #45818e;
+}
+
+.maint-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.maint-actions button,
+.maint-actions label.button {
+    padding: 0.3rem 0.75rem;
+    cursor: pointer;
+}
+
+.muted {
+    color: #666;
+    font-size: 0.9em;
+}
+
+@media all and (max-width: 800px) {
+    body {
+        position: static;
+        display: block;
+    }
+    .source-information {
+        margin: 0.5rem 16px;
+    }
+    .sidebar {
+        width: auto;
+        min-width: 0;
+    }
+    .area-subfield-buttons-wrapper {
+        flex-direction: column;
+        margin: 0 16px 1rem 16px;
+    }
+    .area-subfield-buttons {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .areabutton-buttondiv-wrapper {
+        flex: 1 1 45%;
+        min-width: 10rem;
+    }
+    .datasrc-table-wrapper {
+        display: block;
+    }
+    .datasrc-table-wrapper .tablediv {
+        width: 100%;
+        min-width: 0;
+        overflow-x: auto;
+    }
+    .page-wrap {
+        margin: 0 0.5rem;
+    }
+    #table {
+        font-size: 13px;
+    }
+    .tablediv {
+        overflow-x: auto;
+    }
+    .prof_alumni_parent {
+        flex-direction: column;
+    }
+    .professor_subtable,
+    .alumni_subtable {
+        width: 100%;
+        float: none;
+    }
+}

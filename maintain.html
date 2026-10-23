@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex">
+        <title>data maintenance</title>
+        <link rel="stylesheet" href="./src/styling.css">
+        <script type="module" src="./src/ui/maintain.js"></script>
+    </head>
+    <body>
+        <h1 class="header">data maintenance <a href="./"><span class="headermsg">[back to rankings]</span></a></h1>
+        <div class="page-wrap">
+            <p>Checks the files in <code>data/</code> and helps prepare updates. Nothing here changes the site by itself: download the files it produces and commit them to <code>data/</code>.</p>
+
+            <section class="maint-section">
+                <h2>1. Try new source files <span class="muted">(optional)</span></h2>
+                <p class="muted">Pick a new file to check it before committing. The report below is rebuilt with it in place of the committed copy.</p>
+                <div class="maint-actions">
+                    <label>prof_data.csv (Drafty export) <input type="file" id="file-prof" accept=".csv,text/csv"></label>
+                </div>
+                <div class="maint-actions">
+                    <label>rawBpa.txt (from <a href="https://jeffhuang.com/best_paper_awards/rawBpa.txt" target="_blank" rel="noopener">jeffhuang.com</a>) <input type="file" id="file-bpa" accept=".txt,text/plain"></label>
+                </div>
+                <div class="maint-actions">
+                    <label>csrankings.org generated-author-info.csv <input type="file" id="file-csr" accept=".csv,text/csv"></label>
+                    <span>or</span>
+                    <button type="button" id="fetch-csr">fetch it from GitHub (about 18 MB)</button>
+                </div>
+                <div id="replaced" class="muted"></div>
+                <div id="csr-download" class="maint-actions"></div>
+            </section>
+
+            <section class="maint-section">
+                <h2>2. Summary</h2>
+                <div id="summary"><p class="notice">Loading…</p></div>
+            </section>
+
+            <section class="maint-section">
+                <h2>3. Ranked schools with missing data</h2>
+                <p class="muted">A ranked school with no data in a source usually means its name in that source is not in <code>aliases.csv</code>.</p>
+                <div id="coverage"></div>
+            </section>
+
+            <section class="maint-section">
+                <h2>4. Unmatched names</h2>
+                <p class="muted">Names in the source files with no row in <code>aliases.csv</code>. They are kept as written, so they only matter when they should be one of the ranked schools (marked <span class="ranked">ranked</span>). Pick a canonical name or type one, then download the updated <code>aliases.csv</code>.</p>
+                <div class="maint-actions">
+                    <label><input type="checkbox" id="only-ranked"> only show names with a ranked-school suggestion</label>
+                </div>
+                <div id="unmatched"></div>
+                <div class="maint-actions">
+                    <button type="button" id="download-aliases">download aliases.csv with my choices</button>
+                    <span id="choice-count" class="muted"></span>
+                </div>
+            </section>
+
+            <section class="maint-section">
+                <h2>5. Alias file checks</h2>
+                <div id="alias-checks"></div>
+            </section>
+
+            <section class="maint-section">
+                <h2>6. Settings in use</h2>
+                <p class="muted">From <code>data/config.json</code>. Edit that file to change them.</p>
+                <pre id="config"></pre>
+            </section>
+        </div>
+    </body>
+</html>

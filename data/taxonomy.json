@@ -1,0 +1,374 @@
+{
+  "_comment": "Subfield taxonomy. 'areas' drives the UI (order and labels); 'rankingOrder' is the order subfields are combined in when scoring. Conference maps assign csrankings.org and best-paper conferences to subfield codes. 'draftyLabels' maps the SubField column of prof_data.csv to codes; codes that are not UI subfields ('thr', 'int', 'ce') are given an area in 'extraSubfieldAreas'.",
+  "areas": [
+    {
+      "code": "ai",
+      "label": "Artificial Intelligence",
+      "subfields": [
+        {
+          "code": "vision",
+          "label": "Computer Vision"
+        },
+        {
+          "code": "ai",
+          "label": "Artificial Intelligence"
+        },
+        {
+          "code": "ir",
+          "label": "Information Retrieval & The Web"
+        },
+        {
+          "code": "mlmining",
+          "label": "Machine Learning & Data Mining"
+        },
+        {
+          "code": "nlp",
+          "label": "Natural Language Processing"
+        }
+      ],
+      "rankingOrder": [
+        "ai",
+        "vision",
+        "mlmining",
+        "nlp",
+        "ir"
+      ]
+    },
+    {
+      "code": "thr",
+      "label": "Theory",
+      "subfields": [
+        {
+          "code": "act",
+          "label": "Algorithms"
+        },
+        {
+          "code": "crypt",
+          "label": "Cryptography"
+        },
+        {
+          "code": "log",
+          "label": "Logic & Verification"
+        }
+      ],
+      "rankingOrder": [
+        "act",
+        "crypt",
+        "log"
+      ]
+    },
+    {
+      "code": "sys",
+      "label": "Systems",
+      "subfields": [
+        {
+          "code": "arch",
+          "label": "Computer Architecture"
+        },
+        {
+          "code": "comm",
+          "label": "Networking"
+        },
+        {
+          "code": "da",
+          "label": "Design Automation"
+        },
+        {
+          "code": "metrics",
+          "label": "Performance Analysis"
+        },
+        {
+          "code": "mobile",
+          "label": "Mobile Computing"
+        },
+        {
+          "code": "mod",
+          "label": "Databases"
+        },
+        {
+          "code": "ops",
+          "label": "Operating Systems"
+        },
+        {
+          "code": "plan",
+          "label": "Programming Languages"
+        },
+        {
+          "code": "bed",
+          "label": "Real-Time & Embedded Systems"
+        },
+        {
+          "code": "hpc",
+          "label": "Parallel Computing"
+        },
+        {
+          "code": "sec",
+          "label": "Computer Security"
+        },
+        {
+          "code": "soft",
+          "label": "Software Engineering"
+        }
+      ],
+      "rankingOrder": [
+        "arch",
+        "comm",
+        "sec",
+        "mod",
+        "da",
+        "bed",
+        "hpc",
+        "mobile",
+        "metrics",
+        "ops",
+        "plan",
+        "soft"
+      ]
+    },
+    {
+      "code": "int",
+      "label": "Interdisciplinary Areas",
+      "subfields": [
+        {
+          "code": "bio",
+          "label": "Bioinformatics & Computational Biology"
+        },
+        {
+          "code": "chi",
+          "label": "Human-Computer Interaction"
+        },
+        {
+          "code": "ecom",
+          "label": "Economics"
+        },
+        {
+          "code": "graph",
+          "label": "Computer Graphics"
+        },
+        {
+          "code": "robotics",
+          "label": "Robotics"
+        },
+        {
+          "code": "visualization",
+          "label": "Information Visualization"
+        }
+      ],
+      "rankingOrder": [
+        "bio",
+        "graph",
+        "ecom",
+        "chi",
+        "robotics",
+        "visualization"
+      ]
+    }
+  ],
+  "extraSubfieldAreas": {
+    "thr": "thr",
+    "int": "int",
+    "ce": "int"
+  },
+  "extraSubfieldLabels": {
+    "thr": "Theory",
+    "int": "Interdisciplinary Areas",
+    "ce": "Computer Education"
+  },
+  "draftyLabels": {
+    "Artificial Intelligence": "ai",
+    "Computer Vision": "vision",
+    "Machine Learning & Data Mining": "mlmining",
+    "Natural Language Processing": "nlp",
+    "The Web & Information Retrieval": "ir",
+    "Computer Architecture": "arch",
+    "Computer Networks": "comm",
+    "Computer Security": "sec",
+    "Databases": "mod",
+    "Design Automation": "da",
+    "Embedded & Real-Time Systems": "bed",
+    "High-Performance Computing": "hpc",
+    "Mobile Computing": "mobile",
+    "Measurement & Perf. Analysis": "metrics",
+    "Operating Systems": "ops",
+    "Programming Languages": "plan",
+    "Software Engineering": "soft",
+    "Algorithms & Complexity": "act",
+    "Cryptography": "crypt",
+    "Logic & Verification": "log",
+    "Comp. Bio & Bioinformatics": "bio",
+    "Computer Graphics": "graph",
+    "Economics & Computation": "ecom",
+    "Human-Computer Interaction": "chi",
+    "Robotics": "robotics",
+    "Visualization": "visualization",
+    "Computer Education": "ce",
+    "Interdisciplinary Areas": "int",
+    "Theory": "thr"
+  },
+  "csrankingsConfs": {
+    "aaai": "ai",
+    "ijcai": "ai",
+    "cvpr": "vision",
+    "eccv": "vision",
+    "iccv": "vision",
+    "iclr": "mlmining",
+    "icml": "mlmining",
+    "kdd": "mlmining",
+    "nips": "mlmining",
+    "acl": "nlp",
+    "emnlp": "nlp",
+    "naacl": "nlp",
+    "sigir": "ir",
+    "www": "ir",
+    "asplos": "arch",
+    "isca": "arch",
+    "micro": "arch",
+    "hpca": "arch",
+    "ccs": "sec",
+    "oakland": "sec",
+    "usenixsec": "sec",
+    "ndss": "sec",
+    "pets": "sec",
+    "vldb": "mod",
+    "sigmod": "mod",
+    "icde": "mod",
+    "pods": "mod",
+    "dac": "da",
+    "iccad": "da",
+    "emsoft": "bed",
+    "rtas": "bed",
+    "rtss": "bed",
+    "sc": "hpc",
+    "hpdc": "hpc",
+    "ics": "hpc",
+    "mobicom": "mobile",
+    "mobisys": "mobile",
+    "sensys": "mobile",
+    "imc": "metrics",
+    "sigmetrics": "metrics",
+    "osdi": "ops",
+    "sosp": "ops",
+    "eurosys": "ops",
+    "fast": "ops",
+    "usenixatc": "ops",
+    "popl": "plan",
+    "pldi": "plan",
+    "oopsla": "plan",
+    "icfp": "plan",
+    "fse": "soft",
+    "icse": "soft",
+    "ase": "soft",
+    "issta": "soft",
+    "nsdi": "comm",
+    "sigcomm": "comm",
+    "siggraph": "graph",
+    "siggraph-asia": "graph",
+    "eurographics": "graph",
+    "focs": "act",
+    "soda": "act",
+    "stoc": "act",
+    "crypto": "crypt",
+    "eurocrypt": "crypt",
+    "cav": "log",
+    "lics": "log",
+    "ismb": "bio",
+    "recomb": "bio",
+    "ec": "ecom",
+    "wine": "ecom",
+    "chiconf": "chi",
+    "chi": "chi",
+    "ubicomp": "chi",
+    "uist": "chi",
+    "icra": "robotics",
+    "iros": "robotics",
+    "rss": "robotics",
+    "vis": "visualization",
+    "vr": "visualization",
+    "sigcse": "csed"
+  },
+  "bestPaperConfs": {
+    "aaai": "ai",
+    "ijcai": "ai",
+    "cvpr": "vision",
+    "eccv": "vision",
+    "iccv": "vision",
+    "neurips": "mlmining",
+    "iclr": "mlmining",
+    "icml": "mlmining",
+    "kdd": "mlmining",
+    "nips": "mlmining",
+    "acl": "nlp",
+    "emnlp": "nlp",
+    "naacl": "nlp",
+    "sigir": "ir",
+    "www": "ir",
+    "asplos": "arch",
+    "isca": "arch",
+    "micro": "arch",
+    "hpca": "arch",
+    "s&p": "sec",
+    "ccs": "sec",
+    "oakland": "sec",
+    "usenixsec": "sec",
+    "ndss": "sec",
+    "pets": "sec",
+    "cikm": "mod",
+    "vldb": "mod",
+    "sigmod": "mod",
+    "icde": "mod",
+    "pods": "mod",
+    "dac": "da",
+    "iccad": "da",
+    "emsoft": "bed",
+    "rtas": "bed",
+    "rtss": "bed",
+    "sc": "hpc",
+    "hpdc": "hpc",
+    "ics": "hpc",
+    "mobicom": "mobile",
+    "mobisys": "mobile",
+    "sensys": "mobile",
+    "imc": "metrics",
+    "sigmetrics": "metrics",
+    "osdi": "ops",
+    "sosp": "ops",
+    "eurosys": "ops",
+    "fast": "ops",
+    "usenixatc": "ops",
+    "popl": "plan",
+    "pldi": "plan",
+    "oopsla": "plan",
+    "icfp": "plan",
+    "fse": "soft",
+    "icse": "soft",
+    "ase": "soft",
+    "issta": "soft",
+    "infocom": "comm",
+    "nsdi": "comm",
+    "sigcomm": "comm",
+    "siggraph": "graph",
+    "siggraph-asia": "graph",
+    "eurographics": "graph",
+    "focs": "act",
+    "soda": "act",
+    "stoc": "act",
+    "crypto": "crypt",
+    "eurocrypt": "crypt",
+    "cav": "log",
+    "lics": "log",
+    "ismb": "bio",
+    "recomb": "bio",
+    "ec": "ecom",
+    "wine": "ecom",
+    "chi": "chi",
+    "chiconf": "chi",
+    "ubicomp": "chi",
+    "uist": "chi",
+    "icra": "robotics",
+    "iros": "robotics",
+    "rss": "robotics",
+    "vis": "visualization",
+    "vr": "visualization",
+    "sigcse": "csed"
+  }
+}

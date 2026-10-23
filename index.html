@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>computer science open rankings</title>
+    <link rel="stylesheet" href="./src/styling.css">
+    <script type="module" src="./src/ui/index.js"></script>
+    <meta name="description" content="Computer Science Open Rankings is a meta ranking of four individual computer science rankings covering universities in the United States and Canada.">
+    <meta name="keywords" content="computer science open rankings, computer science rankings, best faculty computer science, top ranking computer science programs, best computer science departments, top computer science universities, best computer science schools, top computer science schools">
+    <meta name="citation_title" content="Computer Science Open Rankings">
+    <meta name="citation_author" content="Wallace, Shaun">
+    <meta name="citation_author" content="Do, Long">
+    <meta name="citation_author" content="Marbach, Alice">
+    <meta name="citation_author" content="Huang, Jeff">
+    <meta name="citation_publication_date" content="2023">
+    <meta name="citation_fulltext_html_url" content="https://drafty.cs.brown.edu/csopenrankings/">
+  </head>
+<body>
+  <h1 class="header">computer science open rankings</h1>
+  <div id="update_info" class="last-updated"></div>
+  <p id="site-notice" class="notice site-notice" role="status" hidden></p>
+  <div class="source-information">
+    <div class="rankings-description">
+      <p>Rankings are an <a href="https://jeffhuang.com/computer-science-open-data/#bias-in-computer-science-rankings" target="_blank" rel="noopener">ideology</a>. Each is biased in its own way. So choose and combine existing rankings to generate your preferred meta ranking for computer science programs in the United States and Canada. Ranking sources represent: reputation (<a href="https://www.usnews.com/best-graduate-schools/top-science-schools/computer-science-rankings" target="_blank" rel="noopener">U.S. News</a><span class="tooltip_size">*
+          <span class="tooltiptext_size">U.S. News provides data for universities in the United States and Maclean's provides data for universities in Canada</span>
+        </span>),
+        faculty publications (<a href="https://csrankings.org/" target="_blank" rel="noopener">csrankings.org</a><span class="tooltip_size">*
+          <span class="tooltiptext_size">The rankings shown under the csrankings.org column may differ from their website because of different subfields and implementation of geometric mean count.</span>
+        </span>),
+      academic placement (<a href="./placement-rank.html" target="_blank">placement rank</a>), and recognition (<a href="https://jeffhuang.com/best_paper_awards/" target="_blank" rel="noopener">best paper awards</a>). Use this to find the best computer science program for you in artificial intelligence, systems, or theory.</p>
+      <p class="authors">by Alice Marbach, Jeff Huang, Long Do, Shaun Wallace, and others who contributed the original ranking sources.</p>
+    </div>
+    <div class="sidebar datasrcs">
+      <h2>ranking source</h2>
+      <div class="datasrc-description-box">
+        <div class="datasrc-buttonlabel">
+          <input type="checkbox" id="src-usnews" class="datasrc" value="usnews" checked>
+          <label class="datasrc-title rank_usnews" for="src-usnews">U.S. News</label>
+        </div>
+        <button type="button" class="collapsible" aria-controls="usnewscontent" aria-expanded="false">+</button>
+        <div class="content" id="usnewscontent" hidden>
+          <p class="rank-description">
+            A ranking based on reputation of graduate programs, compiled from the survey responses of academics to produce a peer assessment score per university. Click <a href="https://www.usnews.com/education/best-graduate-schools/articles/science-schools-methodology" target="_blank" rel="noopener">here</a> and <a href="https://www.macleans.ca/education/canadas-best-university-programs-2021-methodology/" target="_blank" rel="noopener">here</a>
+            for more information.
+          </p>
+        </div>
+      </div>
+      <div class="datasrc-description-box">
+        <div class="datasrc-buttonlabel">
+          <input type="checkbox" id="src-csrankings" class="datasrc" value="csrankings" checked>
+          <label class="datasrc-title rank_csrankings" for="src-csrankings">csrankings.org</label>
+        </div>
+        <button type="button" class="collapsible" aria-controls="csrankingcontent" aria-expanded="false">+</button>
+        <div class="content" id="csrankingcontent" hidden>
+          <p class="rank-description">
+            This ranking measures research publications by professors across the field of computer science. Publications occurring in selected conferences in the year <span class="csr-min-year">2013</span> or later are counted based on the proportion of authors that are professors at that institution. The numbers we report under the csrankings column might differ from <a href="https://csrankings.org" target="_blank" rel="noopener">csrankings.org</a> because while we use the same formula (geometric mean count) we have a different implementation and different subfields. Click <a href="https://csrankings.org/faq.html" target="_blank" rel="noopener">here</a> for more information.
+          </p>
+        </div>
+      </div>
+      <div class="datasrc-description-box">
+        <div class="datasrc-buttonlabel">
+          <input type="checkbox" id="src-pagerank" class="datasrc" value="pagerank" checked>
+          <label class="datasrc-title rank_pagerank" for="src-pagerank">placement rank</label>
+        </div>
+        <button type="button" class="collapsible" aria-controls="pagerankcontent" aria-expanded="false">+</button>
+        <div class="content" id="pagerankcontent" hidden>
+          <p class="rank-description">
+            Ranking based on placement of students from an institution into faculty positions. The data comes from a publicly-editable <a href="https://drafty.cs.brown.edu/csprofessors?src=csor_rankdescription" target="_blank" rel="noopener">dataset of professor profiles</a>. The university where a professor got their bachelors or doctorate is treated as the source node in the Pagerank algorithm, where the score is generated from. <a href="./placement-rank.html" target="_blank">See the original scores for the PageRank calculations.</a>
+          </p>
+        </div>
+      </div>
+      <div class="datasrc-description-box">
+        <div class="datasrc-buttonlabel">
+          <input type="checkbox" id="src-bpa" class="datasrc" value="bpa" checked>
+          <label class="datasrc-title rank_bpa" for="src-bpa">best paper awards</label>
+        </div>
+        <button type="button" class="collapsible" aria-controls="bpacontent" aria-expanded="false">+</button>
+        <div class="content" id="bpacontent" hidden>
+          <p class="rank-description">
+            This ranking measures papers from top computer science conferences recognized as "best papers". Points are assigned to schools based on author affiliation and their position in the author list based on a decreasing exponential scale. See the <a href="https://jeffhuang.com/best_paper_awards/" target="_blank" rel="noopener">best papers page</a> for the full listing.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="area-subfield-buttons-wrapper">
+    <div class="area-subfield-buttons" id="areas"></div>
+    <div class="area-controls">
+      <button type="button" id="toggle_select_all" class="toggle_all">Select All</button>
+      <button type="button" id="toggle_deselect_all" class="toggle_all">Deselect All</button>
+      <select name="countries" id="countries" class="countries" aria-label="Countries">
+        <option value="both">Showing USA &amp; Canadian Universities</option>
+        <option value="usa">Showing only USA Universities</option>
+        <option value="canada">Showing only Canadian Universities</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="datasrc-table-wrapper">
+    <div id="notice" class="notice" hidden></div>
+    <div class="tablediv" id="tablediv">
+      <p class="notice">Loading rankings…</p>
+    </div>
+  </div>
+</body>
+</html>

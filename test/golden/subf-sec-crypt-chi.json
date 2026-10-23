@@ -1,0 +1,1485 @@
+{
+ "case": {
+  "name": "subf-sec-crypt-chi",
+  "country": "both",
+  "kind": "final",
+  "srcs": [
+   "csrankings",
+   "usnews",
+   "bpa",
+   "pagerank"
+  ],
+  "areas": [],
+  "subfields": [
+   "sec",
+   "crypt",
+   "chi"
+  ]
+ },
+ "output": {
+  "sum": [
+   [
+    "Carnegie Mellon University",
+    7
+   ],
+   [
+    "University of Washington",
+    10
+   ],
+   [
+    "University of California, Berkeley",
+    15
+   ],
+   [
+    "Georgia Institute of Technology",
+    19
+   ],
+   [
+    "University of Michigan",
+    19
+   ],
+   [
+    "Stanford University",
+    20
+   ],
+   [
+    "University of Illinois at Urbana-Champaign",
+    22
+   ],
+   [
+    "Massachusetts Institute of Technology",
+    22
+   ],
+   [
+    "University of Toronto",
+    29
+   ],
+   [
+    "Cornell University",
+    31
+   ],
+   [
+    "University of Maryland",
+    39
+   ],
+   [
+    "University of California, San Diego",
+    41
+   ],
+   [
+    "Northwestern University",
+    43
+   ],
+   [
+    "University of California, Irvine",
+    63
+   ],
+   [
+    "Columbia University",
+    69
+   ],
+   [
+    "New York University",
+    72
+   ],
+   [
+    "University of Waterloo",
+    77
+   ],
+   [
+    "University of California, Los Angeles",
+    77
+   ],
+   [
+    "University of Wisconsin-Madison",
+    78
+   ],
+   [
+    "University of British Columbia",
+    81
+   ],
+   [
+    "Princeton University",
+    86
+   ],
+   [
+    "Purdue University",
+    88
+   ],
+   [
+    "University of Colorado Boulder",
+    89
+   ],
+   [
+    "University of Texas at Austin",
+    93
+   ],
+   [
+    "Pennsylvania State University",
+    95
+   ],
+   [
+    "Harvard University",
+    96
+   ],
+   [
+    "University of Chicago",
+    103
+   ],
+   [
+    "Brown University",
+    103
+   ],
+   [
+    "Arizona State University",
+    109
+   ],
+   [
+    "Indiana University Bloomington",
+    111
+   ],
+   [
+    "George Mason University",
+    116
+   ],
+   [
+    "University of California, Santa Barbara",
+    118
+   ],
+   [
+    "University of Central Florida",
+    118
+   ],
+   [
+    "Johns Hopkins University",
+    124
+   ],
+   [
+    "Yale University",
+    124
+   ],
+   [
+    "University of Virginia",
+    125
+   ],
+   [
+    "Stony Brook University",
+    128
+   ],
+   [
+    "Virginia Tech",
+    128
+   ],
+   [
+    "University of Pennsylvania",
+    130
+   ],
+   [
+    "North Carolina State University",
+    132
+   ],
+   [
+    "University of Minnesota",
+    137
+   ],
+   [
+    "Oregon State University",
+    140
+   ],
+   [
+    "University of Florida",
+    142
+   ],
+   [
+    "Simon Fraser University",
+    147
+   ],
+   [
+    "University of Massachusetts Amherst",
+    154
+   ],
+   [
+    "University of Maryland, Baltimore County",
+    156
+   ],
+   [
+    "Rutgers University",
+    160
+   ],
+   [
+    "Dartmouth College",
+    162
+   ],
+   [
+    "University of California, Davis",
+    163
+   ],
+   [
+    "University of Southern California",
+    163
+   ],
+   [
+    "Boston University",
+    169
+   ],
+   [
+    "University of Rochester",
+    169
+   ],
+   [
+    "University of California, Santa Cruz",
+    174
+   ],
+   [
+    "Ohio State University",
+    175
+   ],
+   [
+    "University of Calgary",
+    176
+   ],
+   [
+    "University of Saskatchewan",
+    177
+   ],
+   [
+    "College of William & Mary",
+    181
+   ],
+   [
+    "University of Delaware",
+    182
+   ],
+   [
+    "Texas A&M University",
+    184
+   ],
+   [
+    "Vanderbilt University",
+    185
+   ],
+   [
+    "Tufts University",
+    186
+   ],
+   [
+    "Université de Montréal",
+    186
+   ],
+   [
+    "Duke University",
+    187
+   ],
+   [
+    "University of Illinois at Chicago",
+    189
+   ],
+   [
+    "Washington University in St. Louis",
+    189
+   ],
+   [
+    "Georgetown University",
+    192
+   ],
+   [
+    "University of Pittsburgh",
+    192
+   ],
+   [
+    "Brigham Young University",
+    194
+   ],
+   [
+    "Washington State University",
+    195
+   ],
+   [
+    "University of Iowa",
+    197
+   ],
+   [
+    "University of Arizona",
+    202
+   ],
+   [
+    "University of North Carolina at Charlotte",
+    204
+   ],
+   [
+    "University of Texas at Dallas",
+    206
+   ],
+   [
+    "University of Georgia",
+    211
+   ],
+   [
+    "Syracuse University",
+    212
+   ],
+   [
+    "University of Victoria",
+    218
+   ],
+   [
+    "Florida State University",
+    220
+   ],
+   [
+    "Clemson University",
+    220
+   ],
+   [
+    "Florida International University",
+    220
+   ],
+   [
+    "Rice University",
+    224
+   ],
+   [
+    "Stevens Institute of Technology",
+    225
+   ],
+   [
+    "University of Utah",
+    229
+   ],
+   [
+    "University of Connecticut",
+    231
+   ],
+   [
+    "Drexel University",
+    234
+   ],
+   [
+    "University of California, Riverside",
+    239
+   ],
+   [
+    "Binghamton University",
+    240
+   ],
+   [
+    "George Washington University",
+    242
+   ],
+   [
+    "Michigan State University",
+    242
+   ],
+   [
+    "University of Kansas",
+    246
+   ],
+   [
+    "University of North Carolina at Chapel Hill",
+    246
+   ],
+   [
+    "Iowa State University",
+    248
+   ],
+   [
+    "University at Buffalo",
+    252
+   ],
+   [
+    "Rensselaer Polytechnic Institute",
+    252
+   ],
+   [
+    "University of Rhode Island",
+    252
+   ],
+   [
+    "University of South Florida",
+    253
+   ],
+   [
+    "Illinois Institute of Technology",
+    255
+   ],
+   [
+    "Carleton University",
+    257
+   ],
+   [
+    "University of Oregon",
+    260
+   ],
+   [
+    "Naval Postgraduate School",
+    262
+   ],
+   [
+    "Texas Tech University",
+    263
+   ],
+   [
+    "Lehigh University",
+    264
+   ],
+   [
+    "University of Texas at San Antonio",
+    266
+   ],
+   [
+    "University of Texas at Arlington",
+    268
+   ],
+   [
+    "Northeastern University",
+    268
+   ],
+   [
+    "University of Tennessee",
+    269
+   ],
+   [
+    "University of Nebraska-Lincoln",
+    269
+   ],
+   [
+    "Worcester Polytechnic Institute",
+    271
+   ],
+   [
+    "New Jersey Institute of Technology",
+    272
+   ],
+   [
+    "University of Louisiana at Lafayette",
+    274
+   ],
+   [
+    "Colorado State University",
+    274
+   ],
+   [
+    "University of Notre Dame",
+    275
+   ],
+   [
+    "University of North Texas",
+    279
+   ],
+   [
+    "New Mexico State University",
+    280
+   ],
+   [
+    "Emory University",
+    281
+   ],
+   [
+    "Queen's University",
+    282
+   ],
+   [
+    "University of Alberta",
+    282
+   ],
+   [
+    "Concordia University",
+    283
+   ],
+   [
+    "DePaul University",
+    284
+   ],
+   [
+    "Louisiana State University",
+    286
+   ],
+   [
+    "University of New Mexico",
+    286
+   ],
+   [
+    "University of Vermont",
+    288
+   ],
+   [
+    "Kansas State University",
+    291
+   ],
+   [
+    "University of Ottawa",
+    295
+   ],
+   [
+    "Temple University",
+    302
+   ],
+   [
+    "University of Tulsa",
+    303
+   ],
+   [
+    "Wayne State University",
+    304
+   ],
+   [
+    "University of Oklahoma",
+    306
+   ],
+   [
+    "Colorado School of Mines",
+    306
+   ],
+   [
+    "University of Houston",
+    306
+   ],
+   [
+    "Virginia Commonwealth University",
+    308
+   ],
+   [
+    "McGill University",
+    309
+   ],
+   [
+    "Mississippi State University",
+    309
+   ],
+   [
+    "State University of New York at Albany",
+    309
+   ],
+   [
+    "Indiana University - Purdue University Indianapolis",
+    310
+   ],
+   [
+    "Dalhousie University",
+    310
+   ],
+   [
+    "University of California, Merced",
+    314
+   ],
+   [
+    "Old Dominion University",
+    314
+   ],
+   [
+    "Case Western Reserve University",
+    318
+   ],
+   [
+    "McMaster University",
+    319
+   ],
+   [
+    "Portland State University",
+    319
+   ],
+   [
+    "University of Massachusetts Lowell",
+    319
+   ],
+   [
+    "University of Cincinnati",
+    320
+   ],
+   [
+    "California Institute of Technology",
+    320
+   ],
+   [
+    "University of South Carolina",
+    322
+   ],
+   [
+    "Kent State University",
+    324
+   ],
+   [
+    "University of Memphis",
+    325
+   ],
+   [
+    "University of Michigan-Dearborn",
+    325
+   ],
+   [
+    "Southern Methodist University",
+    325
+   ],
+   [
+    "Utah State University",
+    325
+   ],
+   [
+    "Auburn University",
+    330
+   ],
+   [
+    "Michigan Technological University",
+    334
+   ],
+   [
+    "University of Nevada, Reno",
+    338
+   ],
+   [
+    "University of New Hampshire",
+    342
+   ],
+   [
+    "University of Colorado Denver",
+    342
+   ],
+   [
+    "Pace University",
+    344
+   ],
+   [
+    "University of Hawaii at Manoa",
+    345
+   ],
+   [
+    "University of Wyoming",
+    346
+   ],
+   [
+    "University of Texas at El Paso",
+    348
+   ],
+   [
+    "University of Colorado, Colorado Springs",
+    348
+   ],
+   [
+    "Missouri University of Science and Technology",
+    348
+   ],
+   [
+    "Brandeis University",
+    352
+   ],
+   [
+    "University of Wisconsin-Milwaukee",
+    354
+   ],
+   [
+    "Northern Arizona University",
+    354
+   ],
+   [
+    "Boise State University",
+    354
+   ],
+   [
+    "University of Missouri-Kansas City",
+    354
+   ],
+   [
+    "University of Denver",
+    354
+   ],
+   [
+    "Wichita State University",
+    354
+   ],
+   [
+    "University of Arkansas",
+    356
+   ],
+   [
+    "University of Kentucky",
+    361
+   ],
+   [
+    "University of Louisville",
+    361
+   ],
+   [
+    "Florida Atlantic University",
+    361
+   ],
+   [
+    "Georgia State University",
+    361
+   ],
+   [
+    "Toyota Technological Institute at Chicago",
+    361
+   ],
+   [
+    "University of Nebraska Omaha",
+    361
+   ],
+   [
+    "University of Missouri",
+    361
+   ],
+   [
+    "University of Arkansas at Little Rock",
+    361
+   ],
+   [
+    "Howard University",
+    369
+   ],
+   [
+    "University of New Orleans",
+    373
+   ],
+   [
+    "West Virginia University",
+    373
+   ],
+   [
+    "University of Windsor",
+    373
+   ],
+   [
+    "University of Alabama",
+    373
+   ],
+   [
+    "Université de Sherbrooke",
+    373
+   ],
+   [
+    "University of Nevada, Las Vegas",
+    373
+   ],
+   [
+    "Oklahoma State University-Stillwater",
+    373
+   ],
+   [
+    "Ohio University",
+    373
+   ],
+   [
+    "University of Southern Mississippi",
+    373
+   ],
+   [
+    "University of Mississippi",
+    373
+   ],
+   [
+    "Montana State University - Bozeman",
+    373
+   ],
+   [
+    "University of Alabama at Birmingham",
+    373
+   ],
+   [
+    "Oakland University",
+    373
+   ],
+   [
+    "University of Massachusetts Boston",
+    373
+   ],
+   [
+    "Southern Illinois University Carbondale",
+    373
+   ],
+   [
+    "University of Alabama in Huntsville",
+    373
+   ],
+   [
+    "Oregon Health & Science University",
+    373
+   ],
+   [
+    "Nova Southeastern University",
+    373
+   ],
+   [
+    "University of Miami",
+    373
+   ],
+   [
+    "Towson University",
+    373
+   ],
+   [
+    "Florida Institute of Technology",
+    373
+   ],
+   [
+    "University of Idaho",
+    373
+   ],
+   [
+    "New Mexico Institute of Mining and Technology",
+    373
+   ],
+   [
+    "North Dakota State University",
+    373
+   ],
+   [
+    "Western Michigan University",
+    373
+   ],
+   [
+    "University of Toledo",
+    373
+   ],
+   [
+    "Rochester Institute of Technology",
+    376
+   ],
+   [
+    "Santa Clara University",
+    401
+   ],
+   [
+    "University of Maine",
+    403
+   ],
+   [
+    "Rutgers University-Newark",
+    null
+   ],
+   [
+    "Graduate Center, CUNY",
+    null
+   ],
+   [
+    "Air Force Institute of Technology",
+    null
+   ],
+   [
+    "North Carolina Agricultural and Technical State University",
+    null
+   ],
+   [
+    "Wright State University",
+    null
+   ],
+   [
+    "Embry-Riddle Aeronautical University, Daytona Beach",
+    null
+   ],
+   [
+    "Marquette University",
+    null
+   ],
+   [
+    "Bowie State University",
+    null
+   ],
+   [
+    "Clarkson University",
+    null
+   ],
+   [
+    "Dakota State University",
+    null
+   ],
+   [
+    "Kennesaw State University",
+    null
+   ],
+   [
+    "Louisiana Tech University",
+    null
+   ],
+   [
+    "Tennessee State University",
+    null
+   ],
+   [
+    "University of Puerto Rico-Mayaguez",
+    null
+   ],
+   [
+    "Claremont Graduate University",
+    null
+   ],
+   [
+    "Tennessee Technological University",
+    null
+   ],
+   [
+    "University of Bridgeport",
+    null
+   ],
+   [
+    "Chapman University",
+    null
+   ],
+   [
+    "LIU Post",
+    null
+   ],
+   [
+    "The Catholic University of America",
+    null
+   ],
+   [
+    "University of South Alabama",
+    null
+   ],
+   [
+    "Walden University",
+    null
+   ],
+   [
+    "Western University",
+    null
+   ],
+   [
+    "York University",
+    null
+   ]
+  ],
+  "csrankings": {
+   "Carnegie Mellon University": 1,
+   "Georgia Institute of Technology": 2,
+   "University of Washington": 3,
+   "University of Illinois at Urbana-Champaign": 4,
+   "University of California, San Diego": 5,
+   "University of Toronto": 6,
+   "University of California, Berkeley": 7,
+   "University of Michigan": 8,
+   "University of Waterloo": 9,
+   "University of Maryland": 10,
+   "Purdue University": 11,
+   "New York University": 12,
+   "Cornell University": 13,
+   "Stanford University": 14,
+   "Massachusetts Institute of Technology": 15,
+   "University of California, Los Angeles": 16,
+   "University of California, Irvine": 16,
+   "Northwestern University": 16,
+   "University of Wisconsin-Madison": 19,
+   "Stony Brook University": 20,
+   "Columbia University": 21,
+   "University of California, Santa Barbara": 21,
+   "University of Chicago": 23,
+   "University of Texas at Austin": 23,
+   "Johns Hopkins University": 25,
+   "George Mason University": 26,
+   "Boston University": 27,
+   "Arizona State University": 28,
+   "University of Virginia": 29,
+   "Texas A&M University": 30,
+   "Princeton University": 31,
+   "University of Utah": 32,
+   "Indiana University Bloomington": 33,
+   "University of Colorado Boulder": 34,
+   "North Carolina State University": 35,
+   "Florida State University": 35,
+   "Brown University": 37,
+   "University of Connecticut": 37,
+   "Georgetown University": 39,
+   "University of Florida": 40,
+   "Yale University": 41,
+   "Virginia Tech": 42,
+   "University of British Columbia": 42,
+   "University of Massachusetts Amherst": 42,
+   "University of California, Santa Cruz": 45,
+   "Pennsylvania State University": 46,
+   "Oregon State University": 47,
+   "University of Pennsylvania": 48,
+   "Harvard University": 48,
+   "Duke University": 50,
+   "University of California, Davis": 50,
+   "Rutgers University": 52,
+   "University of Minnesota": 52,
+   "University of Illinois at Chicago": 54,
+   "Simon Fraser University": 54,
+   "University of Delaware": 56,
+   "University of Central Florida": 57,
+   "Ohio State University": 58,
+   "University of Texas at Dallas": 59,
+   "University of California, Riverside": 59,
+   "University of Victoria": 59,
+   "University at Buffalo": 62,
+   "Clemson University": 63,
+   "University of Calgary": 64,
+   "Dartmouth College": 65,
+   "Washington University in St. Louis": 66,
+   "University of Southern California": 66,
+   "University of Georgia": 66,
+   "College of William & Mary": 69,
+   "Tufts University": 70,
+   "New Jersey Institute of Technology": 70,
+   "Drexel University": 72,
+   "University of Texas at Arlington": 72,
+   "Vanderbilt University": 74,
+   "University of South Florida": 74,
+   "University of Tennessee": 74,
+   "Rice University": 74,
+   "Stevens Institute of Technology": 74,
+   "Concordia University": 79,
+   "George Washington University": 79,
+   "Worcester Polytechnic Institute": 79,
+   "University of Rochester": 82,
+   "Carleton University": 82,
+   "Binghamton University": 82,
+   "Louisiana State University": 82,
+   "University of Notre Dame": 86,
+   "Michigan State University": 86,
+   "Florida International University": 88,
+   "University of Pittsburgh": 88,
+   "University of North Carolina at Charlotte": 88,
+   "Brigham Young University": 88,
+   "University of Louisiana at Lafayette": 92,
+   "Lehigh University": 92,
+   "Washington State University": 94,
+   "University of Maryland, Baltimore County": 94,
+   "University of Arizona": 94,
+   "University of Saskatchewan": 94,
+   "Université de Montréal": 98,
+   "Naval Postgraduate School": 98,
+   "Emory University": 100,
+   "DePaul University": 100,
+   "University of Oklahoma": 102,
+   "Temple University": 102,
+   "University of Iowa": 104,
+   "Virginia Commonwealth University": 104,
+   "University of Texas at San Antonio": 106,
+   "Indiana University - Purdue University Indianapolis": 106,
+   "Illinois Institute of Technology": 106,
+   "Dalhousie University": 106,
+   "University of California, Merced": 110,
+   "University of Kansas": 110,
+   "University of Oregon": 110,
+   "Old Dominion University": 110,
+   "Queen's University": 110,
+   "University of New Mexico": 115,
+   "McMaster University": 115,
+   "Portland State University": 115,
+   "University of Massachusetts Lowell": 115,
+   "Colorado School of Mines": 115,
+   "Syracuse University": 115,
+   "University of Alberta": 121,
+   "Texas Tech University": 121,
+   "Iowa State University": 121,
+   "University of Memphis": 121,
+   "University of Michigan-Dearborn": 121,
+   "Southern Methodist University": 121,
+   "University of Vermont": 121,
+   "Utah State University": 121,
+   "New Mexico State University": 121,
+   "Rensselaer Polytechnic Institute": 130,
+   "Michigan Technological University": 130,
+   "University of Ottawa": 130,
+   "University of North Texas": 130,
+   "Wayne State University": 134,
+   "University of Nevada, Reno": 134,
+   "University of South Carolina": 134,
+   "University of Cincinnati": 134,
+   "University of Rhode Island": 138,
+   "Auburn University": 138,
+   "University of Houston": 138,
+   "University of New Hampshire": 138,
+   "University of Nebraska-Lincoln": 138,
+   "University of Colorado Denver": 138,
+   "McGill University": 144,
+   "Case Western Reserve University": 144,
+   "Colorado State University": 144,
+   "University of Texas at El Paso": 144,
+   "University of Colorado, Colorado Springs": 144,
+   "Missouri University of Science and Technology": 144,
+   "University of Wisconsin-Milwaukee": 150,
+   "Northern Arizona University": 150,
+   "Boise State University": 150,
+   "University of Hawaii at Manoa": 150,
+   "University of Missouri-Kansas City": 150,
+   "University of Denver": 150,
+   "Wichita State University": 150,
+   "University of Kentucky": 157,
+   "University of Louisville": 157,
+   "Florida Atlantic University": 157,
+   "Georgia State University": 157,
+   "University of Arkansas": 157,
+   "Toyota Technological Institute at Chicago": 157,
+   "University of Tulsa": 157,
+   "University of Nebraska Omaha": 157,
+   "Mississippi State University": 157,
+   "Kansas State University": 157,
+   "University of Missouri": 157,
+   "University of Arkansas at Little Rock": 157,
+   "State University of New York at Albany": 169,
+   "Northeastern University": 169,
+   "University of New Orleans": 169,
+   "West Virginia University": 169,
+   "University of Windsor": 169,
+   "University of North Carolina at Chapel Hill": 169,
+   "University of Alabama": 169,
+   "Université de Sherbrooke": 169,
+   "University of Wyoming": 169,
+   "University of Nevada, Las Vegas": 169,
+   "Brandeis University": 169,
+   "Oklahoma State University-Stillwater": 169,
+   "Ohio University": 169,
+   "University of Southern Mississippi": 169,
+   "University of Mississippi": 169,
+   "Montana State University - Bozeman": 169,
+   "University of Alabama at Birmingham": 169,
+   "Oakland University": 169,
+   "University of Massachusetts Boston": 169,
+   "Southern Illinois University Carbondale": 169,
+   "Kent State University": 169,
+   "University of Alabama in Huntsville": 169,
+   "Oregon Health & Science University": 169,
+   "Nova Southeastern University": 169,
+   "University of Miami": 169,
+   "Towson University": 169,
+   "Florida Institute of Technology": 169,
+   "University of Idaho": 169,
+   "New Mexico Institute of Mining and Technology": 169,
+   "North Dakota State University": 169,
+   "Western Michigan University": 169
+  },
+  "bpa": {
+   "University of Washington": 1,
+   "Carnegie Mellon University": 2,
+   "Stanford University": 3,
+   "University of Michigan": 4,
+   "Massachusetts Institute of Technology": 5,
+   "University of Toronto": 6,
+   "University of California, Berkeley": 7,
+   "Cornell University": 8,
+   "Northwestern University": 9,
+   "University of Illinois at Urbana-Champaign": 10,
+   "University of British Columbia": 11,
+   "Georgia Institute of Technology": 12,
+   "University of Chicago": 13,
+   "University of Maryland": 14,
+   "Indiana University Bloomington": 15,
+   "University of California, San Diego": 16,
+   "University of California, Irvine": 17,
+   "University of Maryland, Baltimore County": 18,
+   "University of Saskatchewan": 19,
+   "University of Wisconsin-Madison": 20,
+   "University of Colorado Boulder": 21,
+   "Northeastern University": 22,
+   "Simon Fraser University": 23,
+   "Oregon State University": 24,
+   "University of Massachusetts Amherst": 25,
+   "Pennsylvania State University": 26,
+   "New York University": 27,
+   "University of Oregon": 27,
+   "Columbia University": 29,
+   "University of Central Florida": 30,
+   "University of North Carolina at Chapel Hill": 31,
+   "Naval Postgraduate School": 32,
+   "Carleton University": 32,
+   "University of North Texas": 32,
+   "University of Illinois at Chicago": 32,
+   "University of Calgary": 32,
+   "Harvard University": 37,
+   "Tufts University": 38,
+   "University of Southern California": 39,
+   "Dartmouth College": 40,
+   "DePaul University": 41,
+   "University of Waterloo": 42,
+   "University of California, Santa Barbara": 43,
+   "Arizona State University": 44,
+   "University of Rochester": 45,
+   "Queen's University": 46,
+   "Princeton University": 46,
+   "Rutgers University": 48,
+   "University of California, Los Angeles": 49,
+   "Syracuse University": 49,
+   "McGill University": 51,
+   "University of Hawaii at Manoa": 52,
+   "Brown University": 53,
+   "University of Victoria": 54,
+   "Worcester Polytechnic Institute": 55,
+   "University of Texas at Austin": 56,
+   "University of Nebraska-Lincoln": 57,
+   "Colorado State University": 58,
+   "Stony Brook University": 59,
+   "Boston University": 60
+  },
+  "pagerank": {
+   "University of California, Berkeley": 1,
+   "Massachusetts Institute of Technology": 2,
+   "Stanford University": 3,
+   "Carnegie Mellon University": 4,
+   "Georgia Institute of Technology": 5,
+   "University of Washington": 6,
+   "University of Michigan": 7,
+   "University of Illinois at Urbana-Champaign": 8,
+   "Princeton University": 9,
+   "Cornell University": 10,
+   "Harvard University": 11,
+   "University of California, Los Angeles": 12,
+   "Brown University": 13,
+   "University of Texas at Austin": 14,
+   "University of Maryland": 15,
+   "Purdue University": 16,
+   "University of Toronto": 17,
+   "Northwestern University": 18,
+   "Columbia University": 19,
+   "University of California, San Diego": 20,
+   "University of Pennsylvania": 21,
+   "Yale University": 22,
+   "Pennsylvania State University": 23,
+   "University of Minnesota": 24,
+   "Virginia Tech": 25,
+   "University of Waterloo": 26,
+   "Université de Montréal": 27,
+   "University of British Columbia": 28,
+   "George Mason University": 29,
+   "University of California, Irvine": 30,
+   "University of Central Florida": 31,
+   "University of Iowa": 32,
+   "New York University": 33,
+   "University of Colorado Boulder": 34,
+   "University of Virginia": 35,
+   "North Carolina State University": 36,
+   "Arizona State University": 37,
+   "Johns Hopkins University": 38,
+   "University of Wisconsin-Madison": 39,
+   "Washington State University": 40,
+   "University of Florida": 41,
+   "University of Rochester": 42,
+   "University of Pittsburgh": 43,
+   "University of Maryland, Baltimore County": 44,
+   "Brigham Young University": 45,
+   "University of North Carolina at Chapel Hill": 46,
+   "University of Arizona": 47,
+   "Syracuse University": 48,
+   "Stony Brook University": 49,
+   "Vanderbilt University": 50,
+   "College of William & Mary": 51,
+   "University of California, Davis": 52,
+   "University of Rhode Island": 53,
+   "University of California, Santa Barbara": 54,
+   "University of North Carolina at Charlotte": 55,
+   "Ohio State University": 56,
+   "Dartmouth College": 57,
+   "University of Southern California": 58,
+   "California Institute of Technology": 59,
+   "Rutgers University": 60,
+   "Rensselaer Polytechnic Institute": 61,
+   "Washington University in St. Louis": 62,
+   "Indiana University Bloomington": 63,
+   "University of Saskatchewan": 64,
+   "University of Delaware": 65,
+   "Iowa State University": 66,
+   "University of Chicago": 67,
+   "University of California, Santa Cruz": 68,
+   "Oregon State University": 69,
+   "Simon Fraser University": 70,
+   "Florida International University": 71,
+   "Colorado State University": 72,
+   "Kansas State University": 73,
+   "University of Nebraska-Lincoln": 74,
+   "University of Kansas": 75,
+   "Duke University": 76,
+   "Northeastern University": 77,
+   "Tufts University": 78,
+   "State University of New York at Albany": 79,
+   "University of Calgary": 80,
+   "Texas Tech University": 81,
+   "Boston University": 82,
+   "Pace University": 83,
+   "University of Georgia": 84,
+   "University of Tulsa": 85,
+   "University of Texas at Dallas": 86,
+   "University of Massachusetts Amherst": 87,
+   "Illinois Institute of Technology": 88,
+   "Rice University": 89,
+   "Stevens Institute of Technology": 90,
+   "Mississippi State University": 91,
+   "Georgetown University": 92,
+   "Texas A&M University": 93,
+   "Kent State University": 94,
+   "Michigan State University": 95,
+   "Clemson University": 96,
+   "Binghamton University": 97,
+   "New Mexico State University": 98,
+   "University of Texas at San Antonio": 99,
+   "University of Alberta": 100,
+   "Drexel University": 101,
+   "George Washington University": 102,
+   "University of Illinois at Chicago": 103,
+   "University of Ottawa": 104,
+   "University of Victoria": 105,
+   "University of Vermont": 106,
+   "University of Houston": 107,
+   "Howard University": 108,
+   "Wayne State University": 109,
+   "University of New Mexico": 110,
+   "Lehigh University": 111,
+   "University of Toledo": 112,
+   "Case Western Reserve University": 113,
+   "McGill University": 114,
+   "Rochester Institute of Technology": 115,
+   "University of Wyoming": 116,
+   "University of North Texas": 117,
+   "University of South Florida": 118,
+   "University of California, Riverside": 119,
+   "Emory University": 120,
+   "University of Louisiana at Lafayette": 121,
+   "Brandeis University": 122,
+   "University of Oregon": 123,
+   "Florida State University": 124,
+   "University of Cincinnati": 125,
+   "Queen's University": 126,
+   "University of South Carolina": 127,
+   "University of Notre Dame": 128,
+   "University at Buffalo": 129,
+   "Colorado School of Mines": 130,
+   "Auburn University": 131,
+   "Naval Postgraduate School": 132,
+   "University of Connecticut": 133,
+   "University of Tennessee": 134,
+   "University of Texas at Arlington": 135,
+   "University of Utah": 136,
+   "Worcester Polytechnic Institute": 137,
+   "University of Arkansas": 138,
+   "Temple University": 139,
+   "Santa Clara University": 140,
+   "New Jersey Institute of Technology": 141,
+   "University of Maine": 142
+  },
+  "count": {
+   "Arizona State University": 60,
+   "Auburn University": 1,
+   "Augusta University": 3,
+   "Binghamton University": 36,
+   "Boston College": 10,
+   "Boston University": 46,
+   "Brandeis University": 17,
+   "Brigham Young University": 10,
+   "Brown University": 44,
+   "California Institute of Technology": 20,
+   "Carnegie Mellon University": 223,
+   "Case Western Reserve University": 13,
+   "Clemson University": 36,
+   "College of William & Mary": 23,
+   "Colorado School of Mines": 14,
+   "Colorado State University": 17,
+   "Columbia University": 65,
+   "Cornell University": 93,
+   "Dartmouth College": 20,
+   "DePaul University": 3,
+   "Drexel University": 10,
+   "Duke University": 39,
+   "Emory University": 17,
+   "Florida International University": 2,
+   "Florida State University": 25,
+   "George Mason University": 48,
+   "George Washington University": 16,
+   "Georgetown University": 18,
+   "Georgia Institute of Technology": 119,
+   "Gonzaga University": 1,
+   "Harvard University": 39,
+   "Illinois Institute of Technology": 19,
+   "Indiana University Bloomington": 60,
+   "Iowa State University": 30,
+   "Johns Hopkins University": 34,
+   "Kansas State University": 1,
+   "Lehigh University": 19,
+   "Massachusetts Institute of Technology": 116,
+   "McGill University": 32,
+   "McMaster University": 1,
+   "Michigan State University": 32,
+   "National University of Singapore": 6,
+   "Naval Postgraduate School": 16,
+   "New Jersey Institute of Technology": 3,
+   "New Mexico State University": 14,
+   "New York University": 69,
+   "North Carolina State University": 52,
+   "Northeastern University": 86,
+   "Northwestern University": 83,
+   "Ohio State University": 46,
+   "Oregon State University": 43,
+   "Pennsylvania State University": 62,
+   "Princeton University": 61,
+   "Purdue University": 68,
+   "Queen's University": 1,
+   "Rensselaer Polytechnic Institute": 20,
+   "Rice University": 43,
+   "Rochester Institute of Technology": 13,
+   "Rutgers University": 53,
+   "Santa Clara University": 14,
+   "Simon Fraser University": 44,
+   "Stanford University": 72,
+   "Stevens Institute of Technology": 19,
+   "Stony Brook University": 58,
+   "Syracuse University": 12,
+   "Temple University": 18,
+   "Texas A&M University": 70,
+   "Toyota Technological Institute at Chicago": 12,
+   "Tufts University": 24,
+   "University at Buffalo": 28,
+   "University of Alberta": 42,
+   "University of Arizona": 28,
+   "University of Arkansas": 17,
+   "University of British Columbia": 52,
+   "University of Calgary": 24,
+   "University of California, Berkeley": 84,
+   "University of California, Davis": 32,
+   "University of California, Irvine": 64,
+   "University of California, Los Angeles": 50,
+   "University of California, Riverside": 46,
+   "University of California, San Diego": 91,
+   "University of California, Santa Barbara": 34,
+   "University of California, Santa Cruz": 37,
+   "University of Central Florida": 40,
+   "University of Chicago": 52,
+   "University of Colorado Boulder": 69,
+   "University of Connecticut": 24,
+   "University of Delaware": 21,
+   "University of Florida": 45,
+   "University of Houston": 25,
+   "University of Illinois at Chicago": 57,
+   "University of Illinois at Urbana-Champaign": 107,
+   "University of Iowa": 18,
+   "University of Kansas": 13,
+   "University of Maine": 8,
+   "University of Maryland": 65,
+   "University of Maryland, Baltimore County": 30,
+   "University of Massachusetts Amherst": 62,
+   "University of Michigan": 87,
+   "University of Minnesota": 54,
+   "University of Nebraska-Lincoln": 21,
+   "University of Nevada, Reno": 11,
+   "University of New Mexico": 14,
+   "University of North Carolina at Chapel Hill": 41,
+   "University of North Carolina at Charlotte": 29,
+   "University of Notre Dame": 35,
+   "University of Oregon": 15,
+   "University of Pennsylvania": 66,
+   "University of Pittsburgh": 22,
+   "University of Rhode Island": 18,
+   "University of Rochester": 33,
+   "University of South Florida": 17,
+   "University of Southern California": 68,
+   "University of Tennessee": 32,
+   "University of Texas at Arlington": 24,
+   "University of Texas at Austin": 70,
+   "University of Texas at Dallas": 51,
+   "University of Toronto": 99,
+   "University of Tulsa": 11,
+   "University of Utah": 54,
+   "University of Virginia": 59,
+   "University of Washington": 93,
+   "University of Waterloo": 91,
+   "University of Wisconsin-Madison": 73,
+   "Université de Montréal": 15,
+   "Vanderbilt University": 43,
+   "Virginia Tech": 56,
+   "Wake Forest University": 1,
+   "Washington State University": 39,
+   "Washington University in St. Louis": 39,
+   "Wayne State University": 9,
+   "Worcester Polytechnic Institute": 25,
+   "Yale University": 44
+  }
+ }
+}

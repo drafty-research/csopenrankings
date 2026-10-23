@@ -1,0 +1,42 @@
+{
+  "_comment": "Ranking settings. Edit and commit; the site reads this file on load.",
+  "notice": "Drafty, the professor dataset behind placement rank, department size and the professor lists, is under construction and being updated. Some professor data may be missing or out of date.",
+  "csrankings": {
+    "minYear": 2013,
+    "excludeConfs": [
+      "ase",
+      "issta",
+      "icde",
+      "pods",
+      "hpca",
+      "ndss",
+      "pets",
+      "eurosys",
+      "fast",
+      "usenixatc",
+      "icfp",
+      "oopsla"
+    ]
+  },
+  "bestPaper": {
+    "creditSystem": 3,
+    "noAffiliation": [
+      "Self-employed",
+      "Independent Researcher",
+      "No Affiliation"
+    ]
+  },
+  "usnews": {
+    "missingAreaRank": 21
+  },
+  "pagerank": {
+    "iterations": 30,
+    "damping": 0.85,
+    "tolerance": 1e-05
+  },
+  "maintenance": {
+    "csrankingsSourceUrl": "https://raw.githubusercontent.com/emeryberger/CSrankings/gh-pages/generated-author-info.csv",
+    "csrankingsSnapshotFloorYear": 2000
+  },
+  "updated": "2026"
+}

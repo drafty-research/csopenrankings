@@ -1,0 +1,1389 @@
+{
+ "case": {
+  "name": "area-rank-footer",
+  "country": "both",
+  "kind": "areaRank"
+ },
+ "output": {
+  "Carnegie Mellon University": {
+   "ai": 1,
+   "int": 1,
+   "sys": 2,
+   "thr": 4
+  },
+  "Massachusetts Institute of Technology": {
+   "sys": 1,
+   "thr": 1,
+   "ai": 3,
+   "int": 4
+  },
+  "Stanford University": {
+   "ai": 2,
+   "int": 2,
+   "thr": 3,
+   "sys": 10
+  },
+  "University of California, Berkeley": {
+   "thr": 2,
+   "sys": 3,
+   "ai": 4,
+   "int": 6
+  },
+  "University of Illinois at Urbana-Champaign": {
+   "sys": 3,
+   "ai": 6,
+   "thr": 9,
+   "int": 9
+  },
+  "University of Washington": {
+   "int": 3,
+   "sys": 5,
+   "ai": 7,
+   "thr": 7
+  },
+  "Cornell University": {
+   "ai": 4,
+   "sys": 7,
+   "int": 8,
+   "thr": 10
+  },
+  "Princeton University": {
+   "thr": 5,
+   "sys": 15,
+   "int": 17,
+   "ai": 20
+  },
+  "Georgia Institute of Technology": {
+   "int": 5,
+   "sys": 8,
+   "thr": 8,
+   "ai": 13
+  },
+  "University of Michigan": {
+   "sys": 6,
+   "ai": 12,
+   "int": 13,
+   "thr": 16
+  },
+  "University of Texas at Austin": {
+   "thr": 6,
+   "ai": 8,
+   "sys": 8,
+   "int": 31
+  },
+  "University of Toronto": {
+   "int": 6,
+   "ai": 14,
+   "sys": 17,
+   "thr": 18
+  },
+  "University of Maryland": {
+   "ai": 9,
+   "int": 12,
+   "sys": 16,
+   "thr": 22
+  },
+  "University of Massachusetts Amherst": {
+   "ai": 10,
+   "sys": 19,
+   "int": 39,
+   "thr": 50
+  },
+  "University of California, San Diego": {
+   "sys": 10,
+   "int": 11,
+   "thr": 14,
+   "ai": 18
+  },
+  "Northwestern University": {
+   "int": 10,
+   "thr": 35,
+   "ai": 38,
+   "sys": 49
+  },
+  "University of California, Los Angeles": {
+   "ai": 10,
+   "thr": 12,
+   "sys": 22,
+   "int": 27
+  },
+  "New York University": {
+   "thr": 11,
+   "ai": 22,
+   "int": 23,
+   "sys": 34
+  },
+  "University of Wisconsin-Madison": {
+   "sys": 12,
+   "int": 17,
+   "thr": 21,
+   "ai": 29
+  },
+  "Purdue University": {
+   "sys": 13,
+   "int": 21,
+   "thr": 24,
+   "ai": 26
+  },
+  "University of Waterloo": {
+   "thr": 13,
+   "ai": 21,
+   "sys": 22,
+   "int": 29
+  },
+  "Columbia University": {
+   "sys": 14,
+   "int": 16,
+   "ai": 17,
+   "thr": 16
+  },
+  "University of British Columbia": {
+   "int": 14,
+   "sys": 29,
+   "ai": 32,
+   "thr": 40
+  },
+  "University of Pennsylvania": {
+   "ai": 15,
+   "sys": 18,
+   "thr": 20,
+   "int": 26
+  },
+  "Harvard University": {
+   "thr": 15,
+   "int": 15,
+   "ai": 24,
+   "sys": 28
+  },
+  "University of Southern California": {
+   "ai": 16,
+   "sys": 30,
+   "thr": 32,
+   "int": 37
+  },
+  "Duke University": {
+   "ai": 19,
+   "thr": 27,
+   "sys": 42,
+   "int": 52
+  },
+  "Yale University": {
+   "thr": 19,
+   "int": 34,
+   "sys": 38,
+   "ai": 43
+  },
+  "Brown University": {
+   "int": 19,
+   "ai": 25,
+   "thr": 28,
+   "sys": 38
+  },
+  "Ohio State University": {
+   "sys": 20,
+   "ai": 41,
+   "int": 56,
+   "thr": 78
+  },
+  "University of Chicago": {
+   "int": 19,
+   "thr": 22,
+   "sys": 32,
+   "ai": 42
+  },
+  "Rice University": {
+   "sys": 21,
+   "thr": 30,
+   "ai": 37,
+   "int": 49
+  },
+  "University of Colorado Boulder": {
+   "int": 21,
+   "thr": 36,
+   "sys": 40,
+   "ai": 71
+  },
+  "Johns Hopkins University": {
+   "ai": 23,
+   "thr": 25,
+   "int": 44,
+   "sys": 49
+  },
+  "University of Virginia": {
+   "sys": 24,
+   "ai": 29,
+   "thr": 29,
+   "int": 59
+  },
+  "University of California, Irvine": {
+   "int": 23,
+   "ai": 31,
+   "sys": 31,
+   "thr": 55
+  },
+  "North Carolina State University": {
+   "sys": 25,
+   "int": 58,
+   "ai": 63,
+   "thr": 70
+  },
+  "Simon Fraser University": {
+   "int": 25,
+   "thr": 31,
+   "ai": 46,
+   "sys": 58
+  },
+  "Virginia Tech": {
+   "sys": 26,
+   "int": 40,
+   "thr": 56,
+   "ai": 60
+  },
+  "Rutgers University": {
+   "thr": 26,
+   "sys": 26,
+   "ai": 33,
+   "int": 42
+  },
+  "Texas A&M University": {
+   "ai": 27,
+   "int": 33,
+   "thr": 52,
+   "sys": 60
+  },
+  "University of Central Florida": {
+   "int": 27,
+   "ai": 51,
+   "sys": 63,
+   "thr": 96
+  },
+  "University of Alberta": {
+   "ai": 28,
+   "thr": 62,
+   "int": 73,
+   "sys": 97
+  },
+  "University of Utah": {
+   "int": 30,
+   "sys": 46,
+   "ai": 54,
+   "thr": 69
+  },
+  "University of California, Santa Barbara": {
+   "thr": 32,
+   "ai": 34,
+   "int": 50,
+   "sys": 53
+  },
+  "University of Minnesota": {
+   "int": 32,
+   "sys": 37,
+   "ai": 45,
+   "thr": 45
+  },
+  "University of California, Davis": {
+   "sys": 32,
+   "thr": 42,
+   "int": 47,
+   "ai": 87
+  },
+  "Stony Brook University": {
+   "thr": 34,
+   "sys": 35,
+   "int": 40,
+   "ai": 62
+  },
+  "Washington University in St. Louis": {
+   "ai": 35,
+   "thr": 36,
+   "sys": 58,
+   "int": 68
+  },
+  "McGill University": {
+   "int": 35,
+   "thr": 38,
+   "ai": 44,
+   "sys": 46
+  },
+  "University of Rochester": {
+   "ai": 36,
+   "int": 46,
+   "sys": 69,
+   "thr": 98
+  },
+  "Pennsylvania State University": {
+   "sys": 36,
+   "int": 38,
+   "thr": 38,
+   "ai": 47
+  },
+  "Indiana University Bloomington": {
+   "int": 36,
+   "thr": 54,
+   "sys": 61,
+   "ai": 64
+  },
+  "Arizona State University": {
+   "ai": 38,
+   "sys": 44,
+   "int": 51,
+   "thr": 70
+  },
+  "University of Illinois at Chicago": {
+   "ai": 40,
+   "int": 48,
+   "thr": 67,
+   "sys": 90
+  },
+  "College of William & Mary": {
+   "sys": 41,
+   "ai": 68,
+   "thr": 83,
+   "int": 105
+  },
+  "University of Delaware": {
+   "thr": 41,
+   "sys": 75,
+   "int": 75,
+   "ai": 82
+  },
+  "University of Notre Dame": {
+   "sys": 43,
+   "ai": 58,
+   "thr": 60,
+   "int": 60
+  },
+  "Tufts University": {
+   "thr": 43,
+   "int": 52,
+   "sys": 72,
+   "ai": 101
+  },
+  "Dartmouth College": {
+   "int": 43,
+   "thr": 45,
+   "sys": 63,
+   "ai": 67
+  },
+  "Boston University": {
+   "thr": 44,
+   "ai": 54,
+   "sys": 65,
+   "int": 74
+  },
+  "University of Pittsburgh": {
+   "sys": 45,
+   "ai": 60,
+   "int": 66,
+   "thr": 91
+  },
+  "Oregon State University": {
+   "int": 45,
+   "ai": 49,
+   "thr": 51,
+   "sys": 69
+  },
+  "University of Victoria": {
+   "thr": 47,
+   "int": 67,
+   "sys": 92,
+   "ai": 154
+  },
+  "Michigan State University": {
+   "ai": 48,
+   "sys": 66,
+   "thr": 76,
+   "int": 87
+  },
+  "Iowa State University": {
+   "sys": 48,
+   "thr": 48,
+   "ai": 52,
+   "int": 68
+  },
+  "University of California, Riverside": {
+   "thr": 49,
+   "sys": 54,
+   "ai": 56,
+   "int": 75
+  },
+  "University at Buffalo": {
+   "ai": 50,
+   "sys": 57,
+   "thr": 85,
+   "int": 105
+  },
+  "University of Arizona": {
+   "sys": 51,
+   "ai": 70,
+   "int": 81,
+   "thr": 114
+  },
+  "University of California, Santa Cruz": {
+   "ai": 52,
+   "sys": 55,
+   "int": 60,
+   "thr": 66
+  },
+  "University of Florida": {
+   "sys": 52,
+   "thr": 53,
+   "int": 63,
+   "ai": 64
+  },
+  "University of Calgary": {
+   "int": 54,
+   "sys": 76,
+   "ai": 97,
+   "thr": 99
+  },
+  "Vanderbilt University": {
+   "int": 55,
+   "sys": 78,
+   "ai": 94,
+   "thr": 123
+  },
+  "Northeastern University": {
+   "sys": 56,
+   "ai": 69,
+   "thr": 122,
+   "int": 133
+  },
+  "Université de Montréal": {
+   "ai": 57,
+   "thr": 58,
+   "int": 71,
+   "sys": 140
+  },
+  "University of Kansas": {
+   "thr": 56,
+   "sys": 82,
+   "int": 121,
+   "ai": 126
+  },
+  "George Mason University": {
+   "int": 57,
+   "sys": 61,
+   "ai": 74,
+   "thr": 79
+  },
+  "Toyota Technological Institute at Chicago": {
+   "ai": 59,
+   "thr": 67,
+   "int": 114,
+   "sys": 182
+  },
+  "University of Ottawa": {
+   "thr": 59,
+   "ai": 100,
+   "sys": 117,
+   "int": 162
+  },
+  "University of Iowa": {
+   "thr": 60,
+   "sys": 89,
+   "int": 101,
+   "ai": 102
+  },
+  "University of North Carolina at Charlotte": {
+   "int": 60,
+   "sys": 85,
+   "ai": 117,
+   "thr": 143
+  },
+  "Georgetown University": {
+   "thr": 63,
+   "ai": 90,
+   "int": 125,
+   "sys": 135
+  },
+  "Washington State University": {
+   "thr": 64,
+   "sys": 81,
+   "ai": 110,
+   "int": 118
+  },
+  "University of Maryland, Baltimore County": {
+   "int": 64,
+   "sys": 95,
+   "thr": 107,
+   "ai": 119
+  },
+  "Rensselaer Polytechnic Institute": {
+   "thr": 65,
+   "int": 65,
+   "ai": 77,
+   "sys": 92
+  },
+  "Case Western Reserve University": {
+   "ai": 64,
+   "sys": 73,
+   "int": 97,
+   "thr": 119
+  },
+  "Stevens Institute of Technology": {
+   "sys": 67,
+   "int": 83,
+   "thr": 94,
+   "ai": 111
+  },
+  "University of Nebraska-Lincoln": {
+   "sys": 68,
+   "int": 102,
+   "ai": 107,
+   "thr": 123
+  },
+  "University of Saskatchewan": {
+   "int": 68,
+   "sys": 162,
+   "thr": 143,
+   "ai": 194
+  },
+  "University of Texas at Dallas": {
+   "sys": 71,
+   "ai": 76,
+   "int": 86,
+   "thr": 87
+  },
+  "University of Oregon": {
+   "ai": 72,
+   "sys": 98,
+   "int": 118,
+   "thr": 143
+  },
+  "Florida State University": {
+   "thr": 72,
+   "sys": 74,
+   "ai": 81,
+   "int": 93
+  },
+  "Brigham Young University": {
+   "int": 71,
+   "ai": 75,
+   "thr": 80,
+   "sys": 100
+  },
+  "University of Connecticut": {
+   "ai": 73,
+   "thr": 83,
+   "int": 91,
+   "sys": 115
+  },
+  "University of North Carolina at Chapel Hill": {
+   "thr": 73,
+   "ai": 87,
+   "int": 88,
+   "sys": 105
+  },
+  "Louisiana State University": {
+   "thr": 74,
+   "sys": 103,
+   "ai": 109,
+   "int": 144
+  },
+  "Dalhousie University": {
+   "thr": 75,
+   "sys": 112,
+   "int": 117,
+   "ai": 134
+  },
+  "University of Texas at Arlington": {
+   "sys": 76,
+   "ai": 90,
+   "int": 125,
+   "thr": 143
+  },
+  "New Jersey Institute of Technology": {
+   "ai": 77,
+   "sys": 107,
+   "int": 107,
+   "thr": 123
+  },
+  "Michigan Technological University": {
+   "thr": 77,
+   "ai": 155,
+   "int": 155,
+   "sys": 163
+  },
+  "Clemson University": {
+   "int": 77,
+   "sys": 80,
+   "thr": 120,
+   "ai": 126
+  },
+  "Lehigh University": {
+   "ai": 77,
+   "int": 94,
+   "thr": 140,
+   "sys": 149
+  },
+  "Queen's University": {
+   "int": 78,
+   "ai": 98,
+   "sys": 102,
+   "thr": 112
+  },
+  "Illinois Institute of Technology": {
+   "sys": 78,
+   "ai": 116,
+   "thr": 131,
+   "int": 161
+  },
+  "Drexel University": {
+   "int": 79,
+   "thr": 95,
+   "ai": 102,
+   "sys": 134
+  },
+  "Binghamton University": {
+   "ai": 80,
+   "sys": 85,
+   "thr": 116,
+   "int": 129
+  },
+  "Concordia University": {
+   "thr": 80,
+   "ai": 84,
+   "sys": 99,
+   "int": 102
+  },
+  "University of Oklahoma": {
+   "int": 80,
+   "thr": 132,
+   "ai": 151,
+   "sys": 156
+  },
+  "Worcester Polytechnic Institute": {
+   "ai": 82,
+   "int": 92,
+   "sys": 112,
+   "thr": 139
+  },
+  "University of Missouri": {
+   "thr": 82,
+   "ai": 123,
+   "int": 131,
+   "sys": 170
+  },
+  "Florida International University": {
+   "int": 81,
+   "sys": 123,
+   "thr": 132,
+   "ai": 140
+  },
+  "George Washington University": {
+   "sys": 83,
+   "thr": 107,
+   "int": 121,
+   "ai": 134
+  },
+  "University of South Florida": {
+   "int": 83,
+   "ai": 86,
+   "sys": 104,
+   "thr": 132
+  },
+  "Wayne State University": {
+   "ai": 84,
+   "sys": 87,
+   "int": 104,
+   "thr": 143
+  },
+  "University of New Mexico": {
+   "sys": 84,
+   "thr": 99,
+   "int": 99,
+   "ai": 130
+  },
+  "University of Houston": {
+   "int": 85,
+   "thr": 99,
+   "sys": 108,
+   "ai": 118
+  },
+  "Brandeis University": {
+   "thr": 86,
+   "ai": 96,
+   "int": 96,
+   "sys": 109
+  },
+  "Université de Sherbrooke": {
+   "thr": 87,
+   "ai": 159,
+   "int": 162,
+   "sys": 186
+  },
+  "Syracuse University": {
+   "sys": 88,
+   "thr": 96,
+   "int": 112,
+   "ai": 119
+  },
+  "University of California, Merced": {
+   "ai": 89,
+   "int": 121,
+   "sys": 124,
+   "thr": 143
+  },
+  "University of South Carolina": {
+   "thr": 89,
+   "int": 111,
+   "ai": 123,
+   "sys": 124
+  },
+  "McMaster University": {
+   "int": 89,
+   "ai": 102,
+   "sys": 130,
+   "thr": 142
+  },
+  "Colorado State University": {
+   "thr": 90,
+   "int": 97,
+   "sys": 133,
+   "ai": 139
+  },
+  "University of Tennessee": {
+   "int": 90,
+   "sys": 95,
+   "ai": 102,
+   "thr": 143
+  },
+  "University of Texas at San Antonio": {
+   "sys": 91,
+   "int": 144,
+   "ai": 150,
+   "thr": 143
+  },
+  "Temple University": {
+   "ai": 92,
+   "int": 112,
+   "sys": 132,
+   "thr": 141
+  },
+  "University of Alabama": {
+   "thr": 91,
+   "sys": 155,
+   "ai": 172,
+   "int": 174
+  },
+  "California Institute of Technology": {
+   "ai": 92,
+   "thr": 93,
+   "sys": 94,
+   "int": 107
+  },
+  "University of Georgia": {
+   "ai": 95,
+   "int": 94,
+   "sys": 112,
+   "thr": 143
+  },
+  "Emory University": {
+   "ai": 99,
+   "thr": 103,
+   "int": 127,
+   "sys": 135
+  },
+  "Carleton University": {
+   "int": 100,
+   "thr": 112,
+   "sys": 120,
+   "ai": 138
+  },
+  "Portland State University": {
+   "sys": 101,
+   "thr": 104,
+   "ai": 113,
+   "int": 114
+  },
+  "University of Rhode Island": {
+   "thr": 102,
+   "int": 136,
+   "sys": 140,
+   "ai": 167
+  },
+  "New Mexico Institute of Mining and Technology": {
+   "thr": 105,
+   "ai": 194,
+   "int": 186,
+   "sys": 186
+  },
+  "New Mexico State University": {
+   "ai": 106,
+   "sys": 147,
+   "int": 153,
+   "thr": 143
+  },
+  "Southern Methodist University": {
+   "sys": 106,
+   "ai": 128,
+   "int": 160,
+   "thr": 143
+  },
+  "Texas Tech University": {
+   "thr": 106,
+   "sys": 119,
+   "int": 139,
+   "ai": 153
+  },
+  "University of Wisconsin-Milwaukee": {
+   "thr": 107,
+   "int": 174,
+   "ai": 186,
+   "sys": 186
+  },
+  "Auburn University": {
+   "ai": 108,
+   "sys": 110,
+   "thr": 143,
+   "int": 174
+  },
+  "University of Hawaii at Manoa": {
+   "thr": 107,
+   "ai": 159,
+   "sys": 163,
+   "int": 172
+  },
+  "University of Nevada, Reno": {
+   "int": 109,
+   "ai": 121,
+   "thr": 143,
+   "sys": 183
+  },
+  "University of Tulsa": {
+   "int": 110,
+   "thr": 138,
+   "sys": 137,
+   "ai": 168
+  },
+  "University of Vermont": {
+   "sys": 111,
+   "int": 147,
+   "thr": 143,
+   "ai": 180
+  },
+  "University of Arkansas": {
+   "thr": 111,
+   "sys": 124,
+   "ai": 132,
+   "int": 183
+  },
+  "University of Kentucky": {
+   "ai": 111,
+   "thr": 143,
+   "sys": 150,
+   "int": 186
+  },
+  "University of North Texas": {
+   "ai": 114,
+   "int": 114,
+   "sys": 127,
+   "thr": 143
+  },
+  "Oakland University": {
+   "ai": 115,
+   "sys": 137,
+   "thr": 143,
+   "int": 186
+  },
+  "University of Missouri-Kansas City": {
+   "thr": 114,
+   "ai": 159,
+   "sys": 176,
+   "int": 186
+  },
+  "DePaul University": {
+   "sys": 115,
+   "thr": 116,
+   "ai": 122,
+   "int": 136
+  },
+  "Virginia Commonwealth University": {
+   "thr": 116,
+   "sys": 156,
+   "int": 162,
+   "ai": 174
+  },
+  "University of Louisiana at Lafayette": {
+   "sys": 118,
+   "int": 133,
+   "ai": 147,
+   "thr": 143
+  },
+  "University of Massachusetts Lowell": {
+   "int": 118,
+   "ai": 123,
+   "thr": 129,
+   "sys": 145
+  },
+  "Old Dominion University": {
+   "sys": 121,
+   "int": 150,
+   "ai": 172,
+   "thr": 143
+  },
+  "Colorado School of Mines": {
+   "thr": 121,
+   "int": 128,
+   "ai": 136,
+   "sys": 137
+  },
+  "Kansas State University": {
+   "sys": 122,
+   "ai": 140,
+   "thr": 143,
+   "int": 186
+  },
+  "University of Windsor": {
+   "thr": 123,
+   "ai": 186,
+   "int": 186,
+   "sys": 186
+  },
+  "Kent State University": {
+   "int": 124,
+   "sys": 128,
+   "thr": 129,
+   "ai": 156
+  },
+  "University of Memphis": {
+   "thr": 123,
+   "int": 141,
+   "ai": 145,
+   "sys": 170
+  },
+  "Towson University": {
+   "thr": 123,
+   "ai": 186,
+   "int": 186,
+   "sys": 186
+  },
+  "University of Massachusetts Boston": {
+   "ai": 129,
+   "sys": 163,
+   "int": 162,
+   "thr": 143
+  },
+  "University of Michigan-Dearborn": {
+   "sys": 129,
+   "thr": 143,
+   "int": 174,
+   "ai": 184
+  },
+  "University of Colorado Denver": {
+   "int": 130,
+   "sys": 163,
+   "thr": 143,
+   "ai": 186
+  },
+  "University of Cincinnati": {
+   "ai": 131,
+   "int": 140,
+   "sys": 152,
+   "thr": 143
+  },
+  "Mississippi State University": {
+   "sys": 131,
+   "thr": 132,
+   "int": 155,
+   "ai": 168
+  },
+  "State University of New York at Albany": {
+   "int": 132,
+   "ai": 136,
+   "thr": 143,
+   "sys": 146
+  },
+  "Utah State University": {
+   "ai": 132,
+   "int": 144,
+   "sys": 156,
+   "thr": 143
+  },
+  "Naval Postgraduate School": {
+   "thr": 132,
+   "int": 136,
+   "sys": 161,
+   "ai": 186
+  },
+  "Missouri University of Science and Technology": {
+   "int": 135,
+   "sys": 148,
+   "ai": 159,
+   "thr": 143
+  },
+  "Montana State University - Bozeman": {
+   "thr": 132,
+   "int": 162,
+   "ai": 178,
+   "sys": 186
+  },
+  "University of Colorado, Colorado Springs": {
+   "ai": 140,
+   "sys": 156,
+   "int": 162,
+   "thr": 143
+  },
+  "Ohio University": {
+   "sys": 140,
+   "int": 159,
+   "thr": 143,
+   "ai": 194
+  },
+  "University of New Hampshire": {
+   "int": 141,
+   "ai": 143,
+   "thr": 143,
+   "sys": 163
+  },
+  "Florida Atlantic University": {
+   "sys": 143,
+   "thr": 143,
+   "ai": 159,
+   "int": 162
+  },
+  "University of Wyoming": {
+   "int": 141,
+   "thr": 143,
+   "sys": 186,
+   "ai": 194
+  },
+  "University of Texas at El Paso": {
+   "ai": 144,
+   "sys": 160,
+   "thr": 143,
+   "int": 174
+  },
+  "Northern Arizona University": {
+   "sys": 144,
+   "thr": 143,
+   "int": 174,
+   "ai": 180
+  },
+  "University of New Orleans": {
+   "thr": 143,
+   "ai": 168,
+   "int": 174,
+   "sys": 186
+  },
+  "University of Louisville": {
+   "ai": 146,
+   "thr": 143,
+   "int": 162,
+   "sys": 186
+  },
+  "West Virginia University": {
+   "thr": 143,
+   "ai": 148,
+   "sys": 183,
+   "int": 186
+  },
+  "Pace University": {
+   "int": 148,
+   "sys": 208,
+   "thr": 221,
+   "ai": 224
+  },
+  "Georgia State University": {
+   "ai": 148,
+   "thr": 143,
+   "sys": 163,
+   "int": 162
+  },
+  "University of Nebraska Omaha": {
+   "int": 149,
+   "thr": 143,
+   "ai": 174,
+   "sys": 176
+  },
+  "Indiana University - Purdue University Indianapolis": {
+   "int": 150,
+   "ai": 156,
+   "thr": 143,
+   "sys": 186
+  },
+  "Oklahoma State University-Stillwater": {
+   "sys": 151,
+   "ai": 158,
+   "thr": 143,
+   "int": 186
+  },
+  "Oregon Health & Science University": {
+   "ai": 152,
+   "thr": 143,
+   "int": 186,
+   "sys": 186
+  },
+  "Wichita State University": {
+   "int": 150,
+   "ai": 159,
+   "sys": 176,
+   "thr": 143
+  },
+  "University of Miami": {
+   "sys": 152,
+   "ai": 171,
+   "int": 162,
+   "thr": 143
+  },
+  "Western Michigan University": {
+   "sys": 154,
+   "thr": 143,
+   "ai": 194,
+   "int": 186
+  },
+  "University of Idaho": {
+   "int": 154,
+   "sys": 170,
+   "ai": 186,
+   "thr": 143
+  },
+  "University of Southern Mississippi": {
+   "int": 155,
+   "thr": 143,
+   "ai": 180,
+   "sys": 186
+  },
+  "University of Denver": {
+   "int": 155,
+   "thr": 143,
+   "ai": 193,
+   "sys": 186
+  },
+  "Boise State University": {
+   "ai": 159,
+   "thr": 143,
+   "sys": 176,
+   "int": 174
+  },
+  "University of Nevada, Las Vegas": {
+   "thr": 143,
+   "sys": 163,
+   "int": 186,
+   "ai": 194
+  },
+  "University of Maine": {
+   "ai": 166,
+   "thr": 207,
+   "int": 209,
+   "sys": 210
+  },
+  "University of Mississippi": {
+   "thr": 143,
+   "ai": 174,
+   "int": 186,
+   "sys": 186
+  },
+  "Clarkson University": {
+   "sys": 173,
+   "int": 173,
+   "thr": 203,
+   "ai": 216
+  },
+  "Rochester Institute of Technology": {
+   "sys": 174,
+   "thr": 201,
+   "ai": 205,
+   "int": 207
+  },
+  "University of Alabama at Birmingham": {
+   "sys": 175,
+   "thr": 143,
+   "ai": 186,
+   "int": 186
+  },
+  "University of South Alabama": {
+   "ai": 177,
+   "sys": 227,
+   "thr": 227,
+   "int": 227
+  },
+  "The Catholic University of America": {
+   "ai": 178,
+   "sys": 226,
+   "thr": 226,
+   "int": 226
+  },
+  "University of Bridgeport": {
+   "sys": 180,
+   "ai": 185,
+   "thr": 223,
+   "int": 223
+  },
+  "Tennessee Technological University": {
+   "sys": 181,
+   "int": 185,
+   "thr": 222,
+   "ai": 225
+  },
+  "Nova Southeastern University": {
+   "int": 174,
+   "ai": 180,
+   "thr": 143,
+   "sys": 186
+  },
+  "University of Toledo": {
+   "int": 184,
+   "thr": 219,
+   "ai": 222,
+   "sys": 223
+  },
+  "Louisiana Tech University": {
+   "sys": 183,
+   "thr": 216,
+   "ai": 219,
+   "int": 219
+  },
+  "Southern Illinois University Carbondale": {
+   "thr": 143,
+   "int": 186,
+   "sys": 186,
+   "ai": 194
+  },
+  "University of Alabama in Huntsville": {
+   "thr": 143,
+   "int": 186,
+   "sys": 186,
+   "ai": 194
+  },
+  "Florida Institute of Technology": {
+   "thr": 143,
+   "ai": 194,
+   "int": 186,
+   "sys": 186
+  },
+  "North Dakota State University": {
+   "thr": 143,
+   "ai": 194,
+   "int": 186,
+   "sys": 186
+  },
+  "University of Arkansas at Little Rock": {
+   "thr": 143,
+   "ai": 194,
+   "int": 186,
+   "sys": 186
+  },
+  "Howard University": {
+   "thr": 202,
+   "int": 205,
+   "ai": 209,
+   "sys": 209
+  },
+  "Rutgers University-Newark": {
+   "thr": 204,
+   "ai": 207,
+   "int": 210,
+   "sys": 211
+  },
+  "Graduate Center, CUNY": {
+   "thr": 205,
+   "ai": 208,
+   "int": 211,
+   "sys": 212
+  },
+  "Santa Clara University": {
+   "ai": 206,
+   "sys": 206,
+   "int": 208,
+   "thr": 209
+  },
+  "Air Force Institute of Technology": {
+   "thr": 206,
+   "ai": 210,
+   "int": 212,
+   "sys": 213
+  },
+  "Marquette University": {
+   "int": 206,
+   "thr": 212,
+   "ai": 214,
+   "sys": 217
+  },
+  "Chapman University": {
+   "sys": 207,
+   "thr": 224,
+   "int": 224,
+   "ai": 226
+  },
+  "North Carolina Agricultural and Technical State University": {
+   "thr": 208,
+   "ai": 211,
+   "int": 213,
+   "sys": 214
+  },
+  "Wright State University": {
+   "thr": 210,
+   "ai": 212,
+   "int": 214,
+   "sys": 215
+  },
+  "Embry-Riddle Aeronautical University, Daytona Beach": {
+   "thr": 211,
+   "ai": 213,
+   "int": 215,
+   "sys": 216
+  },
+  "Bowie State University": {
+   "thr": 213,
+   "ai": 215,
+   "int": 216,
+   "sys": 218
+  },
+  "Dakota State University": {
+   "thr": 214,
+   "ai": 217,
+   "int": 217,
+   "sys": 219
+  },
+  "Kennesaw State University": {
+   "thr": 215,
+   "ai": 218,
+   "int": 218,
+   "sys": 220
+  },
+  "Tennessee State University": {
+   "thr": 217,
+   "ai": 220,
+   "int": 220,
+   "sys": 221
+  },
+  "University of Puerto Rico-Mayaguez": {
+   "thr": 218,
+   "ai": 221,
+   "int": 221,
+   "sys": 222
+  },
+  "Claremont Graduate University": {
+   "thr": 220,
+   "int": 222,
+   "ai": 223,
+   "sys": 224
+  },
+  "LIU Post": {
+   "sys": 225,
+   "thr": 225,
+   "int": 225,
+   "ai": 227
+  },
+  "Walden University": {
+   "ai": 228,
+   "sys": 228,
+   "thr": 228,
+   "int": 228
+  },
+  "Western University": {
+   "ai": 229,
+   "sys": 229,
+   "thr": 229,
+   "int": 229
+  },
+  "York University": {
+   "ai": 230,
+   "sys": 230,
+   "thr": 230,
+   "int": 230
+  }
+ }
+}

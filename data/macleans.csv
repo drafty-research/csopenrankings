@@ -1,0 +1,21 @@
+rank,school,program reputation,research reputation
+1,University of British Columbia,3,1
+1,University of Toronto,1,1
+1,University of Waterloo,1,1
+4,McGill University,4,4
+5,University of Alberta,5,5
+6,Université de Montréal,7,6
+7,Simon Fraser University,6,7
+8,Queen's University,9,8
+9,University of Calgary,8,10
+10,McMaster University,10,9
+11,University of Victoria,12,10
+12,Carleton University,14,12
+13,Western University,11,13
+14,York University,13,17
+15,Dalhousie University,15,15
+16,University of Ottawa,15,16
+17,Concordia University,17,14
+18,Université de Sherbrooke,18,19
+19,University of Saskatchewan,19,18
+20,University of Windsor,19,20
