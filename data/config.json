@@ -1,6 +1,6 @@
 {
   "_comment": "Ranking settings. Edit and commit; the site reads this file on load.",
-  "notice": "Drafty, the professor dataset behind placement rank, department size and the professor lists, is under construction and being updated. Some professor data may be missing or out of date.",
+  "notice": "Drafty is under construction and being updated. It hosts the publicy editable professor source dataset used for placement rank, department size, and the professor lists. The 'D' link per professor will be inactive until Drafty is live again. *** Some professor data may be missing or out of date.",
   "csrankings": {
     "minYear": 2013,
     "excludeConfs": [
