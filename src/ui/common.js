@@ -10,7 +10,7 @@ export function esc(value) {
 export const BEST_PAPER_URL = 'https://jeffhuang.com/best_paper_awards/';
 
 export function scholarAuthorUrl(name) {
-    return `https://scholar.google.com/scholar?as_sauthors=${encodeURIComponent(name)}&hl=en`;
+    return `https://scholar.google.com/scholar?q=${encodeURIComponent(name)}&hl=en`;
 }
 
 export function scholarTitleUrl(title) {
@@ -18,7 +18,8 @@ export function scholarTitleUrl(title) {
 }
 
 export function draftyProfUrl(name) {
-    return `https://drafty.cs.brown.edu/csprofessors?src=csor_${encodeURIComponent(name)}&searchCol=0&searchVal=${encodeURIComponent(name)}`;
+  return '#'  
+  //return `https://drafty.cs.brown.edu/csprofessors?src=csor_${encodeURIComponent(name)}&searchCol=0&searchVal=${encodeURIComponent(name)}`;
 }
 
 export function draftySchoolUrl(school) {
